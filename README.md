@@ -38,54 +38,7 @@ Display Results:
 
 ## Available Symptoms (25)
 
-Fever, Cough, Headache, Fatigue, Sore Throat, Runny Nose, Chest Pain, Shortness of Breath, Nausea, Vomiting, Diarrhea, Abdominal Pain, Back Pain, Joint Pain, Muscle Pain, Dizziness, Rash, Itching, Swelling, Blurred Vision, Hearing Loss, Insomnia, Anxiety, Depression, Wheezing
-
-## Project Files and Their Functions
-
-### Main Application
-- **app.py** - Main Flask application that handles all web routes, API endpoints, and coordinates the prediction workflow
-
-### Model Files
-- **create_models.py** - Script that trains and creates the Decision Tree and Random Forest ML models
-- **models/decision_tree.pkl** - Trained Decision Tree model for disease prediction
-- **models/random_forest.pkl** - Trained Random Forest model for validating predictions
-
-### Services
-- **services/symptom_mapper.py** - Core prediction engine that maps symptoms to diseases and handles combination logic
-- **services/__init__.py** - Package initialization file for services module
-
-### Data Files
-- **data/symptom_disease_map.json** - Main mapping data for 1675 symptom combinations across 25 symptoms
-- **data/disease_solutions.json** - Comprehensive disease information (89 diseases) including treatments, prevention, and Ayurvedic remedies
-- **data/doctors_database.json** - Comprehensive directory of 290 doctors across 58 hospitals in Bengaluru, Mysuru, Mandya, Tumakuru, and Chamarajanagar districts, covering 29 taluks/towns with precise GPS coordinates
-- **data/comprehensive_doctors_dataset.json** - Full expanded doctor dataset (290 doctors) with taluk, district, coordinates, and Google Maps links
-- **data/comprehensive_doctors_dataset.csv** - CSV export of the comprehensive doctor dataset
-- **data/diagnostic_testing_matrix.json** - Diagnostic test recommendations with ICD codes
-- **data/symptom_disease_dataset.csv** - CSV version of symptom-disease mapping data
-- **data/clean_diseases.py** - Script for cleaning and processing disease data
-- **data/build_json.py** - Script to build JSON data files
-- **data/generate_combos_v3.py** - Script to generate symptom combinations
-- **data/generate_expanded_doctors_v2.py** - Script that generated the comprehensive 290-doctor dataset with full taluk/hospital coverage
-
-### Frontend Files
-- **templates/index.html** - Home page with symptom selection interface
-- **templates/consult.html** - Doctor finder page with location search
-- **templates/about.html** - About page with project information
-- **static/css/style.css** - Main stylesheet for the application
-- **static/js/script.js** - JavaScript for home page predictions
-- **static/js/consult.js** - JavaScript for doctor finder functionality
-- **static/js/main.js** - Shared utility JavaScript functions
-
-### XAMPP Integration (Windows)
-- **index.php** - PHP entry point that redirects to Flask app
-- **proxy.php** - PHP proxy to handle requests between XAMPP and Flask
-- **access.html** - Access guide for XAMPP users
-- **start_flask.bat** - Windows batch file to start Flask server
-- **.htaccess** - Apache configuration for URL routing
-
-### Configuration
-- **requirements.txt** - Python package dependencies
-- **README.md** - This documentation file
+Fever, Cough, Headache, Fatigue, Sore Throat, Runny Nose, Chest Pain, Shortness of Breath, Nausea, Vomiting, Diarrhea, Abdominal Pain, Back Pain, Joint Pain, Muscle Pain, Dizziness, Rash, Itching, Swelling, Blurred Vision, Hearing Loss, Insomnia, Anxiety, Depression, Wheezing.
 
 ## Two-Symptom Combinations
 
