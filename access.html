@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your AI Doctor - Access Guide</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+        }
+
+        .header {
+            text-align: center;
+            color: white;
+            padding: 40px 20px;
+        }
+
+        .header h1 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+        }
+
+        .header p {
+            font-size: 1.2em;
+            opacity: 0.9;
+        }
+
+        .card {
+            background: white;
+            border-radius: 15px;
+            padding: 30px;
+            margin-bottom: 20px;
+            box-shadow: 0 10px 40px rgba(0,0,0,0.15);
+        }
+
+        .card h2 {
+            color: #333;
+            margin-bottom: 20px;
+            padding-bottom: 10px;
+            border-bottom: 2px solid #667eea;
+        }
+
+        .card h3 {
+            color: #555;
+            margin: 20px 0 10px;
+        }
+
+        .access-options {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 20px;
+            margin: 20px 0;
+        }
+
+        .option {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 25px;
+            border-radius: 10px;
+            text-align: center;
+        }
+
+        .option h3 {
+            color: white;
+            margin-bottom: 10px;
+            font-size: 1.3em;
+        }
+
+        .option .url {
+            background: rgba(255,255,255,0.2);
+            padding: 10px 15px;
+            border-radius: 5px;
+            font-family: 'Courier New', monospace;
+            font-size: 0.85em;
+            word-break: break-all;
+            margin: 15px 0;
+        }
+
+        .option .btn {
+            display: inline-block;
+            background: white;
+            color: #667eea;
+            padding: 10px 25px;
+            text-decoration: none;
+            border-radius: 25px;
+            font-weight: 600;
+            transition: transform 0.2s;
+        }
+
+        .option .btn:hover {
+            transform: scale(1.05);
+        }
+
+        .steps {
+            background: #f8f9fa;
+            padding: 25px;
+            border-radius: 10px;
+            margin: 15px 0;
+        }
+
+        .steps ol {
+            margin-left: 20px;
+        }
+
+        .steps li {
+            margin-bottom: 12px;
+            line-height: 1.6;
+            color: #444;
+        }
+
+        .steps code {
+            background: #e9ecef;
+            padding: 2px 8px;
+            border-radius: 4px;
+            font-family: 'Courier New', monospace;
+            font-size: 0.9em;
+        }
+
+        .alert {
+            padding: 15px 20px;
+            border-radius: 8px;
+            margin: 15px 0;
+        }
+
+        .alert-warning {
+            background: #fff3cd;
+            border: 1px solid #ffc107;
+            color: #856404;
+        }
+
+        .alert-info {
+            background: #d1ecf1;
+            border: 1px solid #bee5eb;
+            color: #0c5460;
+        }
+
+        .alert-success {
+            background: #d4edda;
+            border: 1px solid #c3e6cb;
+            color: #155724;
+        }
+
+        .troubleshoot-item {
+            border-left: 4px solid #667eea;
+            padding: 15px 20px;
+            margin: 15px 0;
+            background: #f8f9fa;
+            border-radius: 0 8px 8px 0;
+        }
+
+        .troubleshoot-item strong {
+            color: #333;
+            display: block;
+            margin-bottom: 5px;
+        }
+
+        .troubleshoot-item p {
+            color: #666;
+            line-height: 1.5;
+        }
+
+        .troubleshoot-item code {
+            background: #e9ecef;
+            padding: 2px 6px;
+            border-radius: 3px;
+            font-family: 'Courier New', monospace;
+            font-size: 0.9em;
+        }
+
+        .architecture {
+            text-align: center;
+            padding: 20px;
+            background: #f0f0f0;
+            border-radius: 10px;
+            font-family: 'Courier New', monospace;
+            font-size: 1.1em;
+            margin: 15px 0;
+            line-height: 2;
+        }
+
+        .architecture .arrow {
+            color: #667eea;
+            font-weight: bold;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 15px 0;
+        }
+
+        th, td {
+            padding: 12px 15px;
+            text-align: left;
+            border-bottom: 1px solid #ddd;
+        }
+
+        th {
+            background: #667eea;
+            color: white;
+        }
+
+        tr:hover {
+            background: #f5f5f5;
+        }
+
+        .footer {
+            text-align: center;
+            color: white;
+            padding: 30px;
+            opacity: 0.8;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Your AI Doctor</h1>
+            <p>Access Guide & Setup Instructions</p>
+        </div>
+
+        <div class="card">
+            <h2>Access Options</h2>
+            <p>Choose one of the following methods to access the application:</p>
+
+            <div class="access-options">
+                <div class="option">
+                    <h3>Via XAMPP</h3>
+                    <p>Access through Apache with PHP proxy</p>
+                    <div class="url">http://localhost/new%20help/Your%20AI%20Doctor/</div>
+                    <a href="index.php" class="btn">Open via XAMPP</a>
+                </div>
+                <div class="option">
+                    <h3>Direct Flask</h3>
+                    <p>Access Flask server directly</p>
+                    <div class="url">http://localhost:5000</div>
+                    <a href="http://localhost:5000" class="btn">Open Flask App</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="card">
+            <h2>How It Works</h2>
+            <div class="architecture">
+                Browser <span class="arrow">→</span> Apache (XAMPP, port 80) <span class="arrow">→</span> PHP Proxy <span class="arrow">→</span> Flask (port 5000)
+            </div>
+            <p>The application uses a PHP proxy (<code>proxy.php</code>) to bridge requests between XAMPP's Apache server and the Flask backend.</p>
+        </div>
+
+        <div class="card">
+            <h2>Setup Instructions</h2>
+
+            <h3>Step 1: Start XAMPP</h3>
+            <div class="steps">
+                <ol>
+                    <li>Open the <strong>XAMPP Control Panel</strong></li>
+                    <li>Click <strong>Start</strong> next to <strong>Apache</strong></li>
+                    <li>Ensure Apache status shows green/running</li>
+                </ol>
+            </div>
+
+            <h3>Step 2: Start the Flask Application</h3>
+            <div class="steps">
+                <ol>
+                    <li>Double-click <code>start_flask.bat</code>, <strong>OR</strong></li>
+                    <li>Open a terminal and run:
+                        <br><code>cd "c:\xampp\htdocs\new help\Your AI Doctor"</code>
+                        <br><code>python app.py</code>
+                    </li>
+                    <li>Wait for: <code>Running on http://127.0.0.1:5000</code></li>
+                </ol>
+            </div>
+
+            <h3>Step 3: Access the Application</h3>
+            <div class="steps">
+                <ol>
+                    <li>Open your browser</li>
+                    <li>Navigate to: <code>http://localhost/new%20help/Your%20AI%20Doctor/</code></li>
+                    <li>If Flask is running, you will be redirected to the app</li>
+                </ol>
+            </div>
+
+            <div class="alert alert-success">
+                <strong>Tip:</strong> You can also access the Flask app directly at <code>http://localhost:5000</code> without XAMPP.
+            </div>
+        </div>
+
+        <div class="card">
+            <h2>Available Pages</h2>
+            <table>
+                <tr>
+                    <th>Page</th>
+                    <th>URL (via XAMPP)</th>
+                    <th>Description</th>
+                </tr>
+                <tr>
+                    <td>Home</td>
+                    <td><code>/</code></td>
+                    <td>Symptom selection and disease prediction</td>
+                </tr>
+                <tr>
+                    <td>Consult</td>
+                    <td><code>/consult</code></td>
+                    <td>Find doctors by specialization</td>
+                </tr>
+                <tr>
+                    <td>About</td>
+                    <td><code>/about</code></td>
+                    <td>About the application</td>
+                </tr>
+            </table>
+        </div>
+
+        <div class="card">
+            <h2>Troubleshooting</h2>
+
+            <div class="troubleshoot-item">
+                <strong>Flask Application Not Running</strong>
+                <p>The Flask backend has not been started. Run <code>start_flask.bat</code> or execute <code>python app.py</code> in the project directory.</p>
+            </div>
+
+            <div class="troubleshoot-item">
+                <strong>Port 5000 Already in Use</strong>
+                <p>Another process is using port 5000. Find and kill it:</p>
+                <p><code>netstat -ano | findstr :5000</code></p>
+                <p><code>taskkill /PID &lt;PID&gt; /F</code></p>
+            </div>
+
+            <div class="troubleshoot-item">
+                <strong>Apache Not Starting (Port 80 Conflict)</strong>
+                <p>Another service is using port 80. Change Apache port in <code>httpd.conf</code> from <code>Listen 80</code> to <code>Listen 8080</code>, then access via port 8080.</p>
+            </div>
+
+            <div class="troubleshoot-item">
+                <strong>PHP cURL Extension Not Enabled</strong>
+                <p>The proxy requires PHP cURL. In <code>C:\xampp\php\php.ini</code>, uncomment <code>extension=curl</code> and restart Apache.</p>
+            </div>
+
+            <div class="troubleshoot-item">
+                <strong>Missing Python Dependencies</strong>
+                <p>Install required packages:</p>
+                <p><code>pip install flask numpy scikit-learn geopy</code></p>
+            </div>
+        </div>
+
+        <div class="card">
+            <h2>Requirements</h2>
+            <div class="alert alert-info">
+                <strong>Before running the application, ensure you have:</strong>
+                <ul style="margin-top: 10px; margin-left: 20px;">
+                    <li>Python 3.8 or higher</li>
+                    <li>XAMPP with Apache running</li>
+                    <li>Flask, NumPy, scikit-learn installed via pip</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="footer">
+            <p>Your AI Doctor - Medical Symptom Prediction System</p>
+            <p>For detailed documentation, see <a href="README.md" style="color: white;">README.md</a> and <a href="XAMPP_ACCESS_GUIDE.md" style="color: white;">XAMPP_ACCESS_GUIDE.md</a></p>
+        </div>
+    </div>
+</body>
+</html>

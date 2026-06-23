@@ -1,150 +1,147 @@
-# Your-ai-doctor
-🩺 Your AI Doctor
+# Your AI Doctor
 
-An AI-powered medical symptom checker that predicts possible diseases based on user symptoms using Machine Learning techniques. The system helps users understand potential health conditions and provides basic health recommendations.
+A simple medical symptom checker that predicts possible diseases based on your symptoms.
 
-📌 Project Overview
+## SDLC Process
+This project uses a **Spiral Model**. See: [`spiral_model.md`](./spiral_model.md) | [View Diagram](./diagrams/spiral_model.html)
 
-Your AI Doctor is a web-based healthcare application that allows users to enter their symptoms and receive predictions about possible diseases. The application uses trained machine learning models to analyze symptoms and provide quick insights.
 
-This project aims to assist users in obtaining preliminary health information while encouraging consultation with qualified healthcare professionals for accurate diagnosis and treatment.
+## Quick Setup
 
-✨ Features
+1. **Install Python** (version 3.8 or higher required)
+2. **Install dependencies**: `pip install -r requirements.txt`
+3. **Create models**: `python create_models.py`
+4. **Start app**: `python app.py`
+5. **Open browser**: Go to `http://localhost:5000`
 
-- Symptom-based disease prediction
-- User-friendly web interface
-- Machine Learning-powered diagnosis
-- Fast and accurate predictions
-- Health recommendations and precautions
-- Easy-to-use healthcare assistant
+## Application Flow
 
-🛠️ Technologies Used
+```
+User Opens App
+      ↓
+Select Symptoms from List (25 options)
+      ↓
+Click "Predict Disease" Button
+      ↓
+[Decision Tree Model] → Processes Symptoms
+                      ↓
+[Random Forest Model] → Validates Prediction
+      ↓
+Display Results:
+  • Predicted Disease + Confidence %
+  • Alternative Predictions
+  • Treatment Options
+  • Prevention Tips
+  • Ayurvedic Remedies
+  • When to See Doctor Alert
+```
 
-Frontend
+## Available Symptoms (25)
 
-- HTML5
-- CSS3
-- JavaScript
-- Bootstrap
+Fever, Cough, Headache, Fatigue, Sore Throat, Runny Nose, Chest Pain, Shortness of Breath, Nausea, Vomiting, Diarrhea, Abdominal Pain, Back Pain, Joint Pain, Muscle Pain, Dizziness, Rash, Itching, Swelling, Blurred Vision, Hearing Loss, Insomnia, Anxiety, Depression, Wheezing
 
-Backend
+## Project Files and Their Functions
 
-- Python
-- Flask
+### Main Application
+- **app.py** - Main Flask application that handles all web routes, API endpoints, and coordinates the prediction workflow
 
-Machine Learning
+### Model Files
+- **create_models.py** - Script that trains and creates the Decision Tree and Random Forest ML models
+- **models/decision_tree.pkl** - Trained Decision Tree model for disease prediction
+- **models/random_forest.pkl** - Trained Random Forest model for validating predictions
 
-- Scikit-learn
-- Pandas
-- NumPy
+### Services
+- **services/symptom_mapper.py** - Core prediction engine that maps symptoms to diseases and handles combination logic
+- **services/__init__.py** - Package initialization file for services module
 
-📂 Project Structure
+### Data Files
+- **data/symptom_disease_map.json** - Main mapping data for 1675 symptom combinations across 25 symptoms
+- **data/disease_solutions.json** - Comprehensive disease information (89 diseases) including treatments, prevention, and Ayurvedic remedies
+- **data/doctors_database.json** - Comprehensive directory of 290 doctors across 58 hospitals in Bengaluru, Mysuru, Mandya, Tumakuru, and Chamarajanagar districts, covering 29 taluks/towns with precise GPS coordinates
+- **data/comprehensive_doctors_dataset.json** - Full expanded doctor dataset (290 doctors) with taluk, district, coordinates, and Google Maps links
+- **data/comprehensive_doctors_dataset.csv** - CSV export of the comprehensive doctor dataset
+- **data/diagnostic_testing_matrix.json** - Diagnostic test recommendations with ICD codes
+- **data/symptom_disease_dataset.csv** - CSV version of symptom-disease mapping data
+- **data/clean_diseases.py** - Script for cleaning and processing disease data
+- **data/build_json.py** - Script to build JSON data files
+- **data/generate_combos_v3.py** - Script to generate symptom combinations
+- **data/generate_expanded_doctors_v2.py** - Script that generated the comprehensive 290-doctor dataset with full taluk/hospital coverage
 
-Your-AI-Doctor/
-│
-├── app.py
-├── create_models.py
-├── requirements.txt
-├── README.md
-├── .gitignore
-│
-├── static/
-│   ├── css/
-│   ├── js/
-│   └── images/
-│
-├── templates/
-│   ├── index.html
-│   └── result.html
-│
-├── dataset/
-│
-├── models/
-│
-└── screenshots/
+### Frontend Files
+- **templates/index.html** - Home page with symptom selection interface
+- **templates/consult.html** - Doctor finder page with location search
+- **templates/about.html** - About page with project information
+- **static/css/style.css** - Main stylesheet for the application
+- **static/js/script.js** - JavaScript for home page predictions
+- **static/js/consult.js** - JavaScript for doctor finder functionality
+- **static/js/main.js** - Shared utility JavaScript functions
 
-🚀 Installation
+### XAMPP Integration (Windows)
+- **index.php** - PHP entry point that redirects to Flask app
+- **proxy.php** - PHP proxy to handle requests between XAMPP and Flask
+- **access.html** - Access guide for XAMPP users
+- **start_flask.bat** - Windows batch file to start Flask server
+- **.htaccess** - Apache configuration for URL routing
 
-1. Clone the Repository
+### Configuration
+- **requirements.txt** - Python package dependencies
+- **README.md** - This documentation file
 
-git clone https://github.com/yourusername/your-ai-doctor.git
-cd your-ai-doctor
+## Two-Symptom Combinations
 
-2. Create a Virtual Environment
+Popular combinations and their predictions:
 
-python -m venv venv
+| Symptom 1 | Symptom 2 | Predicted Disease |
+|-----------|-----------|-------------------|
+| Fever | Cough | Common Cold |
+| Fever | Headache | Viral Fever |
+| Fever | Fatigue | Flu |
+| Cough | Runny Nose | Common Cold |
+| Headache | Nausea | Migraine |
+| Chest Pain | Shortness of Breath | Breathing Issue |
+| Fever | Rash | Viral Infection |
 
-Activate the environment:
+## What You See
 
-Windows
+When you select symptoms and click "Predict Disease":
+- Predicted disease with confidence percentage
+- Alternative disease suggestions
+- Treatment recommendations
+- Prevention tips
+- Ayurvedic remedies
+- When to consult a doctor
+- Recommended specialist type
 
-venv\Scripts\activate
+## Doctor Finder
 
-Linux/Mac
+Find doctors across 5 districts by specialty and taluk with precise location-based recommendations:
+- **Districts covered**: Bengaluru, Mysuru, Mandya, Tumakuru, Chamarajanagar
+- **Taluks/towns**: 29 major taluks and surrounding towns across all districts
+- **Hospitals**: 58 unique facilities (urban + rural)
+- **Doctors**: 290 specialists across 12 specialties
+- **Specialties**: General Physician, Cardiologist, Pulmonologist, Orthopedist, Gastroenterologist, Neurologist, Dermatologist, ENT Specialist, Psychiatrist, Allergist, Infectious Disease Specialist, Hematologist
+- **Features**: High-accuracy GPS location detection, distance-based sorting, Google Maps navigation with turn-by-turn directions
 
-source venv/bin/activate
+## Tech Used
 
-3. Install Dependencies
+- Backend: Flask (Python)
+- ML: Decision Tree & Random Forest
+- Data: JSON files
+- Frontend: HTML, CSS, JavaScript
 
-pip install -r requirements.txt
+## Important
 
-4. Generate Machine Learning Models
+This app is for learning only. See a real doctor for medical advice.
 
-python create_models.py
+## Model Accuracy
 
-5. Run the Application
+The machine learning models are trained with 300 samples per disease pattern:
+- **Decision Tree**: ~95-100% training accuracy on test patterns
+- **Random Forest**: ~95-100% training accuracy on test patterns
 
-python app.py
+Training uses weighted samples:
+- 60% perfect symptom matches
+- 25% missing one primary symptom  
+- 15% with one additional noise symptom
 
-6. Open in Browser
-
-http://127.0.0.1:5000
-
-📊 Machine Learning Workflow
-
-1. Collect disease and symptom dataset
-2. Data preprocessing and cleaning
-3. Train machine learning models
-4. Save trained models
-5. Accept user symptoms
-6. Predict possible disease
-7. Display results and recommendations
-
-🎯 Objectives
-
-- Provide quick preliminary disease prediction
-- Improve healthcare accessibility
-- Demonstrate practical use of Machine Learning in healthcare
-- Create an easy-to-use medical assistance platform
-
-📸 Screenshots
-
-Add screenshots of:
-
-- Home Page
-- Symptom Selection Page
-- Prediction Results Page
-- Disease Information Page
-
-👨‍💻 Project Team
-
-Project Title: Your AI Doctor
-
-Developed By:
-
-- Vikas R R
-- Nithin kumar M
-- Siddaraju u
-- Varsha B K
-
-Guide:
-
-- Project Guide : miss Amrutha P
-
-⚠️ Disclaimer
-
-This application is developed for educational and research purposes only. The predictions generated by the system should not be considered professional medical advice. Users are advised to consult qualified healthcare professionals for proper diagnosis and treatment.
-
-📄 License
-
-This project is developed for academic purposes. Feel free to use and modify it for educational learning.
+Note: These are training accuracies on synthetic data. Real-world accuracy would vary with actual patient data.

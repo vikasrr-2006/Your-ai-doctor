@@ -1,0 +1,9 @@
+RewriteEngine On
+
+# Route all requests through proxy.php
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.*)$ proxy.php [QSA,L]
+
+# If the request is for a PHP file, let it pass through
+RewriteRule \.php$ - [L]
