@@ -1,0 +1,2026 @@
+{
+  "metadata": {
+    "version": "3.1.0",
+    "last_updated": "2026-05-02",
+    "description": "Disease solutions including treatments, prevention, and consultation guidelines"
+  },
+  "diseases": [
+    {
+      "name": "Flu",
+      "category": "Respiratory",
+      "primary_treatment": "Rest, hydration, antiviral medications (oseltamivir) within 48 hours, fever reducers (acetaminophen/ibuprofen)",
+      "prevention_tips": "Annual flu vaccination, frequent hand washing, avoid close contact with sick individuals, cover mouth when coughing/sneezing",
+      "when_to_consult": "High fever >3 days, difficulty breathing, chest pain, severe weakness, confusion, dehydration signs",
+      "recommended_specialist": "General Physician, Pulmonologist",
+      "ayurvedic_remedies": "Tulsi (holy basil) tea, ginger-honey mixture, turmeric in warm milk, steam inhalation with eucalyptus oil, Giloy (Tinospora cordifolia) extract",
+      "symptoms": [
+        "Fever",
+        "Cough",
+        "Fatigue",
+        "Headache",
+        "Muscle Pain"
+      ],
+      "severity": "moderate",
+      "contagious": true,
+      "duration_days": "7-14"
+    },
+    {
+      "name": "Common Cold",
+      "category": "Respiratory",
+      "primary_treatment": "Symptomatic relief - decongestants, antihistamines, nasal saline irrigation, throat lozenges, warm fluids",
+      "prevention_tips": "Hand hygiene, avoid touching face, disinfect surfaces, maintain distance from infected persons",
+      "when_to_consult": "Symptoms persist >10 days, high fever, severe sinus pain, breathing difficulties",
+      "recommended_specialist": "General Physician",
+      "ayurvedic_remedies": "Ginger tea with honey, licorice root (mulethi), steam inhalation, warm water with lemon and honey, cinnamon tea",
+      "symptoms": [
+        "Runny Nose",
+        "Cough",
+        "Sore Throat"
+      ],
+      "severity": "mild",
+      "contagious": true,
+      "duration_days": "3-7"
+    },
+    {
+      "name": "Viral Fever",
+      "category": "Infectious",
+      "primary_treatment": "Symptomatic treatment - antipyretics, hydration, rest. Antivirals if specific virus identified",
+      "prevention_tips": "Vaccination (where available), vector control, food hygiene, avoid contact with infected individuals",
+      "when_to_consult": "Fever >103F, fever lasting >3 days, rash with fever, severe headache with fever",
+      "recommended_specialist": "General Physician, Infectious Disease Specialist",
+      "ayurvedic_remedies": "Coriander seed water, fenugreek seeds tea, tulsi leaves, neem extract, papaya leaf extract for dengue",
+      "symptoms": [
+        "Fever",
+        "Headache",
+        "Fatigue"
+      ],
+      "severity": "moderate",
+      "contagious": true,
+      "duration_days": "5-10"
+    },
+    {
+      "name": "Pneumonia",
+      "category": "Respiratory",
+      "primary_treatment": "Antibiotics (bacterial), antiviral medications (viral), hospitalization for severe cases, oxygen therapy if needed",
+      "prevention_tips": "Pneumococcal vaccination, flu vaccination, smoking cessation, good hand hygiene, manage chronic conditions",
+      "when_to_consult": "Immediately - difficulty breathing, chest pain, high fever with chills, confusion, bluish lips/nails",
+      "recommended_specialist": "Pulmonologist, General Physician, Critical Care",
+      "ayurvedic_remedies": "Adjuvant therapy only - tulsi, black pepper, honey, steam inhalation. Medical treatment essential",
+      "symptoms": [
+        "Cough",
+        "Fever",
+        "Chest Pain",
+        "Shortness of Breath"
+      ],
+      "severity": "critical",
+      "contagious": false,
+      "duration_days": "14-30"
+    },
+    {
+      "name": "Throat Infection",
+      "category": "Respiratory",
+      "primary_treatment": "Antibiotics if bacterial (strep throat), antiviral if viral, warm salt water gargles, throat sprays, pain relievers",
+      "prevention_tips": "Don't share utensils, hand washing, avoid close contact with infected persons, replace toothbrush after illness",
+      "when_to_consult": "Severe sore throat >48 hours, difficulty swallowing, fever >101F, white patches on tonsils",
+      "recommended_specialist": "ENT Specialist, General Physician",
+      "ayurvedic_remedies": "Yashtimadhu (licorice) gargle, turmeric milk, ginger tea, honey with black pepper, tulsi leaves",
+      "symptoms": [
+        "Sore Throat",
+        "Fever",
+        "Cough"
+      ],
+      "severity": "mild",
+      "contagious": true,
+      "duration_days": "5-7"
+    },
+    {
+      "name": "Cold / Allergies",
+      "category": "Respiratory",
+      "primary_treatment": "Antihistamines for allergies, decongestants, nasal corticosteroid sprays, immunotherapy for chronic allergies",
+      "prevention_tips": "Identify and avoid allergens, use air purifiers, wash bedding regularly, keep pets clean, monitor pollen counts",
+      "when_to_consult": "Symptoms interfere with daily life, breathing difficulties, symptoms year-round, OTC medications ineffective",
+      "recommended_specialist": "Allergist, ENT Specialist, General Physician",
+      "ayurvedic_remedies": "Nasya (nasal oil drops), trikatu powder, amla (Indian gooseberry), haritaki, steam with ajwain (carom seeds)",
+      "symptoms": [
+        "Runny Nose",
+        "Sneezing",
+        "Itching"
+      ],
+      "severity": "mild",
+      "contagious": false,
+      "duration_days": "Variable"
+    },
+    {
+      "name": "Acidity / Gas",
+      "category": "Gastrointestinal",
+      "primary_treatment": "Antacids, H2 blockers, proton pump inhibitors, dietary modifications, avoid trigger foods",
+      "prevention_tips": "Eat smaller meals, avoid spicy/fatty foods, don't lie down after eating, reduce caffeine/alcohol, manage stress",
+      "when_to_consult": "Frequent heartburn >2 times/week, difficulty swallowing, weight loss, blood in vomit/stool",
+      "recommended_specialist": "Gastroenterologist, General Physician",
+      "ayurvedic_remedies": "Ajwain (carom seeds) with salt, fennel seeds after meals, licorice root, aloe vera juice, buttermilk with spices",
+      "symptoms": [
+        "Chest Pain",
+        "Nausea",
+        "Abdominal Pain"
+      ],
+      "severity": "mild",
+      "contagious": false,
+      "duration_days": "Variable"
+    },
+    {
+      "name": "Breathing Problem",
+      "category": "Respiratory",
+      "primary_treatment": "Bronchodilators, inhaled corticosteroids, oxygen therapy, pulmonary rehabilitation, treat underlying cause",
+      "prevention_tips": "Quit smoking, avoid air pollution, regular exercise, vaccinations (flu/pneumonia), maintain healthy weight",
+      "when_to_consult": "Immediately - severe shortness of breath, blue lips/fingertips, inability to speak, rapid breathing",
+      "recommended_specialist": "Pulmonologist, Respiratory Therapist, General Physician",
+      "ayurvedic_remedies": "Vasa (Adhatoda vasica), tulsi, pippali (long pepper), yashtimadhu, steam inhalation. Medical care primary",
+      "symptoms": [
+        "Shortness of Breath",
+        "Wheezing",
+        "Chest Pain"
+      ],
+      "severity": "critical",
+      "contagious": false,
+      "duration_days": "Chronic"
+    },
+    {
+      "name": "Stomach Upset",
+      "category": "Gastrointestinal",
+      "primary_treatment": "Antiemetics, antacids, fluid replacement, BRAT diet (bananas, rice, applesauce, toast), probiotics",
+      "prevention_tips": "Food hygiene, cook meat thoroughly, wash fruits/vegetables, drink clean water, avoid expired foods",
+      "when_to_consult": "Vomiting >24 hours, blood in vomit/stool, severe abdominal pain, dehydration signs, high fever",
+      "recommended_specialist": "Gastroenterologist, General Physician",
+      "ayurvedic_remedies": "Ginger tea, peppermint tea, chamomile tea, cumin water, rice water, probiotic buttermilk",
+      "symptoms": [
+        "Nausea",
+        "Vomiting",
+        "Diarrhea",
+        "Abdominal Pain"
+      ],
+      "severity": "moderate",
+      "contagious": true,
+      "duration_days": "2-5"
+    },
+    {
+      "name": "Food Poisoning",
+      "category": "Gastrointestinal",
+      "primary_treatment": "Fluid replacement (oral rehydration solution), rest, antibiotics if bacterial cause identified, antiemetics",
+      "prevention_tips": "Proper food handling, cook to safe temperatures, refrigerate promptly, separate raw/cooked foods, hand washing",
+      "when_to_consult": "Severe dehydration, bloody stools/vomit, high fever >101.5F, neurologic symptoms (blurred vision, weakness)",
+      "recommended_specialist": "Gastroenterologist, Emergency Medicine",
+      "ayurvedic_remedies": "Jeera (cumin) water, coriander seed water, ginger juice, honey with lemon, oral rehydration with natural salts",
+      "symptoms": [
+        "Nausea",
+        "Vomiting",
+        "Diarrhea",
+        "Abdominal Pain"
+      ],
+      "severity": "moderate",
+      "contagious": false,
+      "duration_days": "1-3"
+    },
+    {
+      "name": "Loose Motion",
+      "category": "Gastrointestinal",
+      "primary_treatment": "Oral rehydration therapy, antidiarrheals (loperamide), probiotics, zinc supplements, identify and treat cause",
+      "prevention_tips": "Hand hygiene, safe drinking water, proper sanitation, food safety, vaccination (rotavirus)",
+      "when_to_consult": "Diarrhea >2 days, bloody/mucoid stools, high fever, severe dehydration, abdominal pain",
+      "recommended_specialist": "Gastroenterologist, General Physician",
+      "ayurvedic_remedies": "Pomegranate juice/rind, buttermilk with roasted cumin, rice water, nutmeg powder, haritaki",
+      "symptoms": [
+        "Diarrhea",
+        "Abdominal Pain"
+      ],
+      "severity": "moderate",
+      "contagious": true,
+      "duration_days": "2-7"
+    },
+    {
+      "name": "Stomach Pain",
+      "category": "Gastrointestinal",
+      "primary_treatment": "Depends on cause - antacids, antibiotics, antispasmodics, dietary changes, surgery if appendicitis",
+      "prevention_tips": "Balanced diet, regular meals, stress management, avoid trigger foods, stay hydrated, exercise regularly",
+      "when_to_consult": "Severe pain, pain lasting >24 hours, fever, vomiting blood, black stools, inability to pass stool/gas",
+      "recommended_specialist": "Gastroenterologist, General Surgeon, General Physician",
+      "ayurvedic_remedies": "Ginger, fennel, ajwain, asafoetida (hing), peppermint, warm compress, castor oil pack",
+      "symptoms": [
+        "Abdominal Pain",
+        "Nausea",
+        "Diarrhea"
+      ],
+      "severity": "moderate",
+      "contagious": false,
+      "duration_days": "Variable"
+    },
+    {
+      "name": "Muscle Strain",
+      "category": "Musculoskeletal",
+      "primary_treatment": "RICE (Rest, Ice, Compression, Elevation), NSAIDs, muscle relaxants, physical therapy, heat therapy after 48 hours",
+      "prevention_tips": "Warm up before exercise, proper lifting techniques, ergonomic workspace, regular stretching, strengthen core muscles",
+      "when_to_consult": "Severe pain, inability to move, numbness/tingling, pain persists >1 week, signs of infection",
+      "recommended_specialist": "Orthopedist, Physical Therapist, General Physician",
+      "ayurvedic_remedies": "Mahamasha taila (warm sesame oil), nirgundi oil, turmeric paste, ginger compress, ashwagandha",
+      "symptoms": [
+        "Back Pain",
+        "Chest Pain",
+        "Muscle Pain"
+      ],
+      "severity": "moderate",
+      "contagious": false,
+      "duration_days": "7-14"
+    },
+    {
+      "name": "Body Pain",
+      "category": "Musculoskeletal",
+      "primary_treatment": "Analgesics, NSAIDs, rest, hydration, heat/cold therapy, massage, identify and treat underlying cause",
+      "prevention_tips": "Regular exercise, proper posture, ergonomic setup, stress management, adequate sleep, hydration",
+      "when_to_consult": "Severe/unexplained pain, fever with pain, weakness/numbness, pain after injury, weight loss",
+      "recommended_specialist": "Rheumatologist, Orthopedist, General Physician",
+      "ayurvedic_remedies": "Abhyanga (full body massage with medicated oils), ginger-turmeric, epsom salt baths, yoga, ashwagandha",
+      "symptoms": [
+        "Joint Pain",
+        "Muscle Pain",
+        "Fatigue"
+      ],
+      "severity": "mild",
+      "contagious": false,
+      "duration_days": "Variable"
+    },
+    {
+      "name": "Body Ache",
+      "category": "Musculoskeletal",
+      "primary_treatment": "Similar to body pain - analgesics, rest, hydration, treat underlying cause",
+      "prevention_tips": "Regular exercise, balanced diet, adequate sleep, stress reduction, proper ergonomics",
+      "when_to_consult": "Persistent pain, severe pain, fever, rashes, joint swelling, neurological symptoms",
+      "recommended_specialist": "General Physician, Rheumatologist",
+      "ayurvedic_remedies": "Castor oil, ginger, turmeric, boswellia (shallaki), guggulu, warm oil massage",
+      "symptoms": [
+        "Muscle Pain",
+        "Fatigue",
+        "Fever"
+      ],
+      "severity": "mild",
+      "contagious": false,
+      "duration_days": "Variable"
+    },
+    {
+      "name": "Weakness / Tiredness",
+      "category": "General",
+      "primary_treatment": "Identify and treat underlying cause, iron supplements if anemic, B12 if deficient, rest, balanced diet",
+      "prevention_tips": "Balanced diet, regular exercise, adequate sleep, stress management, regular health checkups",
+      "when_to_consult": "Persistent weakness >2 weeks, severe fatigue affecting daily life, unexplained weight loss, fainting",
+      "recommended_specialist": "General Physician, Hematologist, Endocrinologist",
+      "ayurvedic_remedies": "Ashwagandha, shatavari, chyawanprash, amla, dates, almonds, ghee in moderation",
+      "symptoms": [
+        "Fatigue",
+        "Dizziness",
+        "Shortness of Breath"
+      ],
+      "severity": "mild",
+      "contagious": false,
+      "duration_days": "Variable"
+    },
+    {
+      "name": "Low BP / Weakness",
+      "category": "Cardiovascular",
+      "primary_treatment": "Increased fluid/salt intake, compression stockings, medications (fludrocortisone, midodrine) if chronic, treat underlying cause",
+      "prevention_tips": "Stay hydrated, rise slowly from sitting/lying, small frequent meals, avoid alcohol, compression garments",
+      "when_to_consult": "Frequent fainting, severe dizziness, chest pain, confusion, rapid/irregular heartbeat",
+      "recommended_specialist": "Cardiologist, General Physician",
+      "ayurvedic_remedies": "Licorice (mulethi), ashwagandha, amla, pomegranate juice, raisins soaked overnight, tulsi",
+      "symptoms": [
+        "Dizziness",
+        "Chest Pain",
+        "Fatigue"
+      ],
+      "severity": "moderate",
+      "contagious": false,
+      "duration_days": "Variable"
+    },
+    {
+      "name": "Skin Allergy",
+      "category": "Skin",
+      "primary_treatment": "Antihistamines, topical corticosteroids, moisturizers, avoid allergens, phototherapy for chronic cases",
+      "prevention_tips": "Identify and avoid triggers, patch testing, hypoallergenic products, wear protective clothing",
+      "when_to_consult": "Severe reaction, difficulty breathing, widespread rash, infection signs, OTC treatments ineffective",
+      "recommended_specialist": "Dermatologist, Allergist",
+      "ayurvedic_remedies": "Neem paste, aloe vera, manjistha, khadirarishta, haridra khanda, avoid incompatible food combinations",
+      "symptoms": [
+        "Rash",
+        "Itching",
+        "Swelling"
+      ],
+      "severity": "mild",
+      "contagious": false,
+      "duration_days": "Variable"
+    },
+    {
+      "name": "Allergy",
+      "category": "Immune",
+      "primary_treatment": "Antihistamines, nasal corticosteroids, decongestants, immunotherapy (allergy shots), epinephrine for anaphylaxis",
+      "prevention_tips": "Allergen avoidance, HEPA filters, regular cleaning, immunotherapy, emergency action plan",
+      "when_to_consult": "Anaphylaxis, severe reactions, symptoms uncontrolled with OTC meds, affecting quality of life",
+      "recommended_specialist": "Allergist, Immunologist",
+      "ayurvedic_remedies": "Trikatu, vasa, yashtimadhu, amla, haritaki, nasya therapy, avoid incompatible foods",
+      "symptoms": [
+        "Itching",
+        "Swelling",
+        "Runny Nose"
+      ],
+      "severity": "mild",
+      "contagious": false,
+      "duration_days": "Variable"
+    },
+    {
+      "name": "Inflammation",
+      "category": "General",
+      "primary_treatment": "NSAIDs, corticosteroids, rest, ice, compression, elevation, treat underlying inflammatory condition",
+      "prevention_tips": "Anti-inflammatory diet, regular exercise, stress management, avoid injury, omega-3 supplements",
+      "when_to_consult": "Severe swelling, redness, warmth, fever, inability to use affected area, sudden swelling",
+      "recommended_specialist": "Rheumatologist, Orthopedist, General Physician",
+      "ayurvedic_remedies": "Turmeric, ginger, boswellia, guggulu, castor oil, warm fomentation",
+      "symptoms": [
+        "Swelling",
+        "Pain",
+        "Redness"
+      ],
+      "severity": "moderate",
+      "contagious": false,
+      "duration_days": "Variable"
+    },
+    {
+      "name": "Eye Strain",
+      "category": "Neurological",
+      "primary_treatment": "Rest eyes, 20-20-20 rule, proper lighting, corrective lenses if needed, lubricating eye drops",
+      "prevention_tips": "Regular breaks from screens, proper ergonomics, adequate lighting, correct prescription, eye exercises",
+      "when_to_consult": "Vision changes, severe pain, persistent symptoms, double vision, flashes/floaters",
+      "recommended_specialist": "Ophthalmologist, Optometrist",
+      "ayurvedic_remedies": "Triphala eye wash, ghee (clarified butter) in diet, amla, rose water drops, palming technique, netra tarpana",
+      "symptoms": [
+        "Blurred Vision",
+        "Headache",
+        "Eye Fatigue"
+      ],
+      "severity": "mild",
+      "contagious": false,
+      "duration_days": "Variable"
+    },
+    {
+      "name": "Ear Blockage",
+      "category": "ENT",
+      "primary_treatment": "Ear drops, irrigation, antibiotics if infection, decongestants, avoid Q-tips, treat underlying cause",
+      "prevention_tips": "Keep ears dry, don't insert objects, treat allergies promptly, avoid swimming in contaminated water",
+      "when_to_consult": "Severe pain, discharge from ear, sudden hearing loss, dizziness, fever with ear pain",
+      "recommended_specialist": "ENT Specialist",
+      "ayurvedic_remedies": "Bilva oil, garlic oil (warm), onion juice drops (diluted), avoid water entry, karnapurana therapy",
+      "symptoms": [
+        "Hearing Loss",
+        "Ear Pain",
+        "Fullness"
+      ],
+      "severity": "mild",
+      "contagious": false,
+      "duration_days": "3-7"
+    },
+    {
+      "name": "Sleep Problem",
+      "category": "Mental Health",
+      "primary_treatment": "Sleep hygiene, CBT-I, melatonin, sedatives if prescribed, treat underlying conditions, relaxation techniques",
+      "prevention_tips": "Regular sleep schedule, avoid caffeine/alcohol before bed, dark/quiet/cool room, no screens before bed, exercise regularly",
+      "when_to_consult": "Insomnia >3 weeks, excessive daytime sleepiness, snoring/gasping, abnormal movements during sleep",
+      "recommended_specialist": "Sleep Specialist, Psychiatrist, Neurologist",
+      "ayurvedic_remedies": "Warm milk with nutmeg/cardamom, ashwagandha, brahmi, shankhpushpi, abhyanga, meditation",
+      "symptoms": [
+        "Insomnia",
+        "Fatigue",
+        "Irritability"
+      ],
+      "severity": "mild",
+      "contagious": false,
+      "duration_days": "Variable"
+    },
+    {
+      "name": "Stress",
+      "category": "Mental Health",
+      "primary_treatment": "Counseling, CBT, stress management techniques, medications if needed (anxiolytics/antidepressants), lifestyle modifications",
+      "prevention_tips": "Regular exercise, meditation, time management, healthy boundaries, social support, hobbies, adequate sleep",
+      "when_to_consult": "Stress affecting daily functioning, panic attacks, persistent anxiety/depression, substance use to cope",
+      "recommended_specialist": "Psychiatrist, Psychologist, Counselor",
+      "ayurvedic_remedies": "Ashwagandha, brahmi, shankhpushpi, jatamansi, meditation, yoga, pranayama, abhyanga",
+      "symptoms": [
+        "Anxiety",
+        "Depression",
+        "Fatigue",
+        "Headache"
+      ],
+      "severity": "mild",
+      "contagious": false,
+      "duration_days": "Variable"
+    },
+    {
+      "name": "Migraine",
+      "category": "Neurological",
+      "primary_treatment": "Triptans, NSAIDs, antiemetics, preventive medications (beta blockers, anticonvulsants), Botox for chronic cases",
+      "prevention_tips": "Identify and avoid triggers, regular sleep/eating, hydration, stress management, exercise, keep headache diary",
+      "when_to_consult": "Frequent/severe migraines, pattern changes, neurological deficits, first migraine after age 50, medication overuse",
+      "recommended_specialist": "Neurologist, Headache Specialist",
+      "ayurvedic_remedies": "Shirashooladi vati, godanti bhasma, pippali, saffron, sandalwood paste on forehead, nasya with anu taila",
+      "symptoms": [
+        "Headache",
+        "Nausea",
+        "Dizziness",
+        "Blurred Vision",
+        "Sensitivity to light/sound"
+      ],
+      "severity": "moderate",
+      "contagious": false,
+      "duration_days": "4-72 hours"
+    },
+    {
+      "name": "Asthma / Allergy",
+      "category": "Respiratory",
+      "primary_treatment": "Bronchodilators (salbutamol), inhaled corticosteroids, antihistamines, leukotriene modifiers, allergen avoidance, immunotherapy for allergies",
+      "prevention_tips": "Avoid known allergens and triggers, use air purifiers, asthma action plan, flu and pneumococcal vaccinations, maintain healthy weight, regular exercise",
+      "when_to_consult": "Worsening symptoms despite rescue inhaler, frequent night symptoms, difficulty speaking, blue lips/fingertips, ER for severe asthma attack",
+      "recommended_specialist": "Pulmonologist, Allergist, Immunologist",
+      "ayurvedic_remedies": "Vasa (Adhatoda vasica), tulsi, pippali (long pepper), yashtimadhu (licorice), steam inhalation, nasya therapy, avoid cold and damp foods",
+      "symptoms": [
+        "Wheezing",
+        "Shortness of Breath",
+        "Cough",
+        "Chest Pain"
+      ],
+      "severity": "moderate",
+      "contagious": false,
+      "duration_days": "Chronic"
+    },
+    {
+      "name": "Mental Stress",
+      "category": "Mental Health",
+      "primary_treatment": "Psychological counseling, cognitive behavioral therapy (CBT), mindfulness meditation, relaxation techniques, lifestyle adjustments, medications (antidepressants/anxiolytics) if indicated",
+      "prevention_tips": "Regular physical activity, meditation, time management, healthy work-life balance, adequate sleep, balanced nutrition, social connections, hobbies",
+      "when_to_consult": "Stress interfering with daily functioning, panic attacks, persistent anxiety or depression, substance misuse, thoughts of self-harm",
+      "recommended_specialist": "Psychiatrist, Psychologist, Counselor, Therapist",
+      "ayurvedic_remedies": "Ashwagandha, brahmi, shankhpushpi, jatamansi, meditation, yoga, pranayama, abhyanga (body massage), calming herbal teas",
+      "symptoms": [
+        "Anxiety",
+        "Depression",
+        "Fatigue",
+        "Insomnia"
+      ],
+      "severity": "moderate",
+      "contagious": false,
+      "duration_days": "Variable"
+    },
+    {
+      "name": "Tension Headache",
+      "category": "Neurological",
+      "primary_treatment": "Over-the-counter pain relievers (NSAIDs, acetaminophen), rest, stress reduction, massage, applying heat or cold packs, improving posture",
+      "prevention_tips": "Stress management, regular sleep schedule, staying hydrated, ergonomic workstation, limit screen time, regular exercise, manage anxiety",
+      "when_to_consult": "Headaches more than 15 days per month, severe intensity, medication overuse, neurological symptoms (vision changes, weakness), headache after head injury",
+      "recommended_specialist": "Neurologist, Headache Specialist, Pain Management",
+      "ayurvedic_remedies": "Brahmi, shankhpushpi, ashwagandha, ginger paste, nasya therapy with anu taila, shirodhara, meditation, yoga",
+      "symptoms": [
+        "Headache",
+        "Dizziness",
+        "Fatigue"
+      ],
+      "severity": "mild",
+      "contagious": false,
+      "duration_days": "Variable"
+    },
+    {
+      "name": "COVID-19",
+      "category": "Respiratory",
+      "primary_treatment": "Rest, hydration, antipyretics for fever, monitoring oxygen levels, antiviral medications (remdesivir) for severe cases",
+      "prevention_tips": "Vaccination, mask wearing in crowded places, hand hygiene, social distancing, improve ventilation",
+      "when_to_consult": "Difficulty breathing, persistent chest pain, confusion, inability to wake up, bluish lips/nails",
+      "recommended_specialist": "Pulmonologist, Infectious Disease Specialist, General Physician",
+      "ayurvedic_remedies": "Tulsi tea, ginger, turmeric, ashwagandha, steam inhalation. Medical care primary for confirmed cases",
+      "symptoms": [
+        "Fever",
+        "Cough",
+        "Fatigue"
+      ],
+      "severity": "high",
+      "contagious": true,
+      "duration_days": "7-14"
+    },
+    {
+      "name": "Dengue Fever",
+      "category": "Infectious",
+      "primary_treatment": "Supportive care - hydration, pain relievers (avoid aspirin), blood transfusion if severe, monitor platelet count",
+      "prevention_tips": "Eliminate standing water, use mosquito repellent, wear long sleeves, sleep under net, control vector population",
+      "when_to_consult": "Severe abdominal pain, persistent vomiting, bleeding gums, easy bruising, difficulty breathing",
+      "recommended_specialist": "Infectious Disease Specialist, General Physician",
+      "ayurvedic_remedies": "Papaya leaf extract, tulsi, ginger, coriander, fluids. Medical care essential - dengue can be fatal",
+      "symptoms": [
+        "Fever",
+        "Joint Pain",
+        "Rash"
+      ],
+      "severity": "high",
+      "contagious": false,
+      "duration_days": "7-10"
+    },
+    {
+      "name": "Malaria",
+      "category": "Infectious",
+      "primary_treatment": "Antimalarial drugs (artemisinin-based combination therapy), hydration, antipyretics for fever",
+      "prevention_tips": "Use insecticide-treated bed nets, antimalarial prophylaxis when traveling, eliminate standing water, mosquito repellent",
+      "when_to_consult": "High fever with chills, severe anemia symptoms, confusion, difficulty breathing, seizures",
+      "recommended_specialist": "Infectious Disease Specialist, General Physician",
+      "ayurvedic_remedies": "Tulsi, neem, aloe vera, goldenseal. Medical treatment essential - malaria is life-threatening",
+      "symptoms": [
+        "Fever",
+        "Fatigue",
+        "Headache"
+      ],
+      "severity": "high",
+      "contagious": false,
+      "duration_days": "Variable"
+    },
+    {
+      "name": "Meningitis",
+      "category": "Neurological",
+      "primary_treatment": "Antibiotics for bacterial meningitis, antiviral medications for viral, corticosteroids for inflammation",
+      "prevention_tips": "Vaccination (meningococcal, pneumococcal), avoid sharing utensils, good hand hygiene",
+      "when_to_consult": "Immediately - severe headache, neck stiffness, fever, confusion, light sensitivity, rash",
+      "recommended_specialist": "Neurologist, Infectious Disease Specialist, Emergency Medicine",
+      "ayurvedic_remedies": "Tulsi, ginger, turmeric. Emergency medical care critical - meningitis can be fatal",
+      "symptoms": [
+        "Fever",
+        "Headache",
+        "Nausea"
+      ],
+      "severity": "critical",
+      "contagious": true,
+      "duration_days": "7-14"
+    },
+    {
+      "name": "Heart Attack",
+      "category": "Cardiovascular",
+      "primary_treatment": "Emergency - aspirin, nitroglycerin, oxygen, cardiac catheterization, thrombolytics, PCI",
+      "prevention_tips": "Healthy diet, regular exercise, quit smoking, manage stress, control cholesterol/blood pressure/diabetes",
+      "when_to_consult": "IMMEDIATELY - chest pain/pressure, shortness of breath, arm/jaw pain, nausea, cold sweat",
+      "recommended_specialist": "Cardiologist, Emergency Medicine",
+      "ayurvedic_remedies": "Arjun chaal, garlic, hawthorn berry. Call emergency services first - ayurveda adjuvant only",
+      "symptoms": [
+        "Chest Pain",
+        "Shortness of Breath",
+        "Fatigue"
+      ],
+      "severity": "critical",
+      "contagious": false,
+      "duration_days": "Acute"
+    },
+    {
+      "name": "Stroke",
+      "category": "Neurological",
+      "primary_treatment": "Emergency - tPA for ischemic stroke, mechanical thrombectomy, blood pressure management",
+      "prevention_tips": "Control blood pressure, quit smoking, manage diabetes, healthy diet, exercise regularly",
+      "when_to_consult": "IMMEDIATELY - face drooping, arm weakness, speech difficulty, sudden severe headache, vision loss",
+      "recommended_specialist": "Neurologist, Emergency Medicine",
+      "ayurvedic_remedies": "Brahmi, ashwagandha, ginkgo biloba. Emergency medical care critical",
+      "symptoms": [
+        "Headache",
+        "Dizziness",
+        "Blurred Vision"
+      ],
+      "severity": "critical",
+      "contagious": false,
+      "duration_days": "Acute + recovery"
+    },
+    {
+      "name": "Acidity",
+      "description": "A medical condition requiring attention. Consult a healthcare professional for proper diagnosis and treatment.",
+      "severity": "mild",
+      "symptoms": [
+        "Varies by individual"
+      ],
+      "treatments": [
+        "Medical consultation required",
+        "Follow prescribed treatment plan",
+        "Rest and recovery"
+      ],
+      "prevention": [
+        "Regular health checkups",
+        "Maintain healthy lifestyle",
+        "Early detection and treatment"
+      ],
+      "when_to_consult": "Consult a doctor if symptoms persist or worsen",
+      "recommended_specialist": "General Physician",
+      "ayurvedic_remedies": "Consult an Ayurvedic practitioner for personalized treatment",
+      "contagious": false,
+      "duration_days": "Varies",
+      "complications": [
+        "If left untreated"
+      ]
+    },
+    {
+      "name": "Allergic Rhinitis",
+      "description": "A medical condition requiring attention. Consult a healthcare professional for proper diagnosis and treatment.",
+      "severity": "moderate",
+      "symptoms": [
+        "Varies by individual"
+      ],
+      "treatments": [
+        "Medical consultation required",
+        "Follow prescribed treatment plan",
+        "Rest and recovery"
+      ],
+      "prevention": [
+        "Regular health checkups",
+        "Maintain healthy lifestyle",
+        "Early detection and treatment"
+      ],
+      "when_to_consult": "Consult a doctor if symptoms persist or worsen",
+      "recommended_specialist": "General Physician",
+      "ayurvedic_remedies": "Consult an Ayurvedic practitioner for personalized treatment",
+      "contagious": false,
+      "duration_days": "Varies",
+      "complications": [
+        "If left untreated"
+      ]
+    },
+    {
+      "name": "Anaphylaxis",
+      "description": "A medical condition requiring attention. Consult a healthcare professional for proper diagnosis and treatment.",
+      "severity": "critical",
+      "symptoms": [
+        "Varies by individual"
+      ],
+      "treatments": [
+        "Medical consultation required",
+        "Follow prescribed treatment plan",
+        "Rest and recovery"
+      ],
+      "prevention": [
+        "Regular health checkups",
+        "Maintain healthy lifestyle",
+        "Early detection and treatment"
+      ],
+      "when_to_consult": "IMMEDIATELY - life-threatening emergency",
+      "recommended_specialist": "Emergency Medicine",
+      "ayurvedic_remedies": "Consult an Ayurvedic practitioner for personalized treatment",
+      "contagious": false,
+      "duration_days": "Varies",
+      "complications": [
+        "If left untreated"
+      ]
+    },
+    {
+      "name": "Anemia",
+      "description": "A medical condition requiring attention. Consult a healthcare professional for proper diagnosis and treatment.",
+      "severity": "moderate",
+      "symptoms": [
+        "Varies by individual"
+      ],
+      "treatments": [
+        "Medical consultation required",
+        "Follow prescribed treatment plan",
+        "Rest and recovery"
+      ],
+      "prevention": [
+        "Regular health checkups",
+        "Maintain healthy lifestyle",
+        "Early detection and treatment"
+      ],
+      "when_to_consult": "Consult a doctor if symptoms persist or worsen",
+      "recommended_specialist": "General Physician",
+      "ayurvedic_remedies": "Consult an Ayurvedic practitioner for personalized treatment",
+      "contagious": false,
+      "duration_days": "Varies",
+      "complications": [
+        "If left untreated"
+      ]
+    },
+    {
+      "name": "Angina",
+      "description": "A medical condition requiring attention. Consult a healthcare professional for proper diagnosis and treatment.",
+      "severity": "moderate",
+      "symptoms": [
+        "Varies by individual"
+      ],
+      "treatments": [
+        "Medical consultation required",
+        "Follow prescribed treatment plan",
+        "Rest and recovery"
+      ],
+      "prevention": [
+        "Regular health checkups",
+        "Maintain healthy lifestyle",
+        "Early detection and treatment"
+      ],
+      "when_to_consult": "Consult a doctor if symptoms persist or worsen",
+      "recommended_specialist": "General Physician",
+      "ayurvedic_remedies": "Consult an Ayurvedic practitioner for personalized treatment",
+      "contagious": false,
+      "duration_days": "Varies",
+      "complications": [
+        "If left untreated"
+      ]
+    },
+    {
+      "name": "Aortic Dissection",
+      "description": "A medical condition requiring attention. Consult a healthcare professional for proper diagnosis and treatment.",
+      "severity": "critical",
+      "symptoms": [
+        "Varies by individual"
+      ],
+      "treatments": [
+        "Medical consultation required",
+        "Follow prescribed treatment plan",
+        "Rest and recovery"
+      ],
+      "prevention": [
+        "Regular health checkups",
+        "Maintain healthy lifestyle",
+        "Early detection and treatment"
+      ],
+      "when_to_consult": "IMMEDIATELY - life-threatening emergency",
+      "recommended_specialist": "Emergency Medicine",
+      "ayurvedic_remedies": "Consult an Ayurvedic practitioner for personalized treatment",
+      "contagious": false,
+      "duration_days": "Varies",
+      "complications": [
+        "If left untreated"
+      ]
+    },
+    {
+      "name": "Arthritis",
+      "description": "A medical condition requiring attention. Consult a healthcare professional for proper diagnosis and treatment.",
+      "severity": "moderate",
+      "symptoms": [
+        "Varies by individual"
+      ],
+      "treatments": [
+        "Medical consultation required",
+        "Follow prescribed treatment plan",
+        "Rest and recovery"
+      ],
+      "prevention": [
+        "Regular health checkups",
+        "Maintain healthy lifestyle",
+        "Early detection and treatment"
+      ],
+      "when_to_consult": "Consult a doctor if symptoms persist or worsen",
+      "recommended_specialist": "General Physician",
+      "ayurvedic_remedies": "Consult an Ayurvedic practitioner for personalized treatment",
+      "contagious": false,
+      "duration_days": "Varies",
+      "complications": [
+        "If left untreated"
+      ]
+    },
+    {
+      "name": "Asthma",
+      "description": "A medical condition requiring attention. Consult a healthcare professional for proper diagnosis and treatment.",
+      "severity": "severe",
+      "symptoms": [
+        "Varies by individual"
+      ],
+      "treatments": [
+        "Medical consultation required",
+        "Follow prescribed treatment plan",
+        "Rest and recovery"
+      ],
+      "prevention": [
+        "Regular health checkups",
+        "Maintain healthy lifestyle",
+        "Early detection and treatment"
+      ],
+      "when_to_consult": "Consult a doctor if symptoms persist or worsen",
+      "recommended_specialist": "General Physician",
+      "ayurvedic_remedies": "Consult an Ayurvedic practitioner for personalized treatment",
+      "contagious": false,
+      "duration_days": "Varies",
+      "complications": [
+        "If left untreated"
+      ]
+    },
+    {
+      "name": "Back Pain",
+      "description": "A medical condition requiring attention. Consult a healthcare professional for proper diagnosis and treatment.",
+      "severity": "mild",
+      "symptoms": [
+        "Varies by individual"
+      ],
+      "treatments": [
+        "Medical consultation required",
+        "Follow prescribed treatment plan",
+        "Rest and recovery"
+      ],
+      "prevention": [
+        "Regular health checkups",
+        "Maintain healthy lifestyle",
+        "Early detection and treatment"
+      ],
+      "when_to_consult": "Consult a doctor if symptoms persist or worsen",
+      "recommended_specialist": "General Physician",
+      "ayurvedic_remedies": "Consult an Ayurvedic practitioner for personalized treatment",
+      "contagious": false,
+      "duration_days": "Varies",
+      "complications": [
+        "If left untreated"
+      ]
+    },
+    {
+      "name": "Bronchitis",
+      "description": "A medical condition requiring attention. Consult a healthcare professional for proper diagnosis and treatment.",
+      "severity": "moderate",
+      "symptoms": [
+        "Varies by individual"
+      ],
+      "treatments": [
+        "Medical consultation required",
+        "Follow prescribed treatment plan",
+        "Rest and recovery"
+      ],
+      "prevention": [
+        "Regular health checkups",
+        "Maintain healthy lifestyle",
+        "Early detection and treatment"
+      ],
+      "when_to_consult": "Consult a doctor if symptoms persist or worsen",
+      "recommended_specialist": "General Physician",
+      "ayurvedic_remedies": "Consult an Ayurvedic practitioner for personalized treatment",
+      "contagious": false,
+      "duration_days": "Varies",
+      "complications": [
+        "If left untreated"
+      ]
+    },
+    {
+      "name": "Chickenpox",
+      "description": "A medical condition requiring attention. Consult a healthcare professional for proper diagnosis and treatment.",
+      "severity": "moderate",
+      "symptoms": [
+        "Varies by individual"
+      ],
+      "treatments": [
+        "Medical consultation required",
+        "Follow prescribed treatment plan",
+        "Rest and recovery"
+      ],
+      "prevention": [
+        "Regular health checkups",
+        "Maintain healthy lifestyle",
+        "Early detection and treatment"
+      ],
+      "when_to_consult": "Consult a doctor if symptoms persist or worsen",
+      "recommended_specialist": "General Physician",
+      "ayurvedic_remedies": "Consult an Ayurvedic practitioner for personalized treatment",
+      "contagious": false,
+      "duration_days": "Varies",
+      "complications": [
+        "If left untreated"
+      ]
+    },
+    {
+      "name": "Chikungunya",
+      "description": "A medical condition requiring attention. Consult a healthcare professional for proper diagnosis and treatment.",
+      "severity": "moderate",
+      "symptoms": [
+        "Varies by individual"
+      ],
+      "treatments": [
+        "Medical consultation required",
+        "Follow prescribed treatment plan",
+        "Rest and recovery"
+      ],
+      "prevention": [
+        "Regular health checkups",
+        "Maintain healthy lifestyle",
+        "Early detection and treatment"
+      ],
+      "when_to_consult": "Consult a doctor if symptoms persist or worsen",
+      "recommended_specialist": "General Physician",
+      "ayurvedic_remedies": "Consult an Ayurvedic practitioner for personalized treatment",
+      "contagious": false,
+      "duration_days": "Varies",
+      "complications": [
+        "If left untreated"
+      ]
+    },
+    {
+      "name": "Chronic Fatigue",
+      "description": "A medical condition requiring attention. Consult a healthcare professional for proper diagnosis and treatment.",
+      "severity": "moderate",
+      "symptoms": [
+        "Varies by individual"
+      ],
+      "treatments": [
+        "Medical consultation required",
+        "Follow prescribed treatment plan",
+        "Rest and recovery"
+      ],
+      "prevention": [
+        "Regular health checkups",
+        "Maintain healthy lifestyle",
+        "Early detection and treatment"
+      ],
+      "when_to_consult": "Consult a doctor if symptoms persist or worsen",
+      "recommended_specialist": "General Physician",
+      "ayurvedic_remedies": "Consult an Ayurvedic practitioner for personalized treatment",
+      "contagious": false,
+      "duration_days": "Varies",
+      "complications": [
+        "If left untreated"
+      ]
+    },
+    {
+      "name": "Chronic Fatigue Syndrome",
+      "description": "A medical condition requiring attention. Consult a healthcare professional for proper diagnosis and treatment.",
+      "severity": "moderate",
+      "symptoms": [
+        "Varies by individual"
+      ],
+      "treatments": [
+        "Medical consultation required",
+        "Follow prescribed treatment plan",
+        "Rest and recovery"
+      ],
+      "prevention": [
+        "Regular health checkups",
+        "Maintain healthy lifestyle",
+        "Early detection and treatment"
+      ],
+      "when_to_consult": "Consult a doctor if symptoms persist or worsen",
+      "recommended_specialist": "General Physician",
+      "ayurvedic_remedies": "Consult an Ayurvedic practitioner for personalized treatment",
+      "contagious": false,
+      "duration_days": "Varies",
+      "complications": [
+        "If left untreated"
+      ]
+    },
+    {
+      "name": "Contact Dermatitis",
+      "description": "A medical condition requiring attention. Consult a healthcare professional for proper diagnosis and treatment.",
+      "severity": "moderate",
+      "symptoms": [
+        "Varies by individual"
+      ],
+      "treatments": [
+        "Medical consultation required",
+        "Follow prescribed treatment plan",
+        "Rest and recovery"
+      ],
+      "prevention": [
+        "Regular health checkups",
+        "Maintain healthy lifestyle",
+        "Early detection and treatment"
+      ],
+      "when_to_consult": "Consult a doctor if symptoms persist or worsen",
+      "recommended_specialist": "General Physician",
+      "ayurvedic_remedies": "Consult an Ayurvedic practitioner for personalized treatment",
+      "contagious": false,
+      "duration_days": "Varies",
+      "complications": [
+        "If left untreated"
+      ]
+    },
+    {
+      "name": "Cough Syndrome",
+      "description": "A medical condition requiring attention. Consult a healthcare professional for proper diagnosis and treatment.",
+      "severity": "moderate",
+      "symptoms": [
+        "Varies by individual"
+      ],
+      "treatments": [
+        "Medical consultation required",
+        "Follow prescribed treatment plan",
+        "Rest and recovery"
+      ],
+      "prevention": [
+        "Regular health checkups",
+        "Maintain healthy lifestyle",
+        "Early detection and treatment"
+      ],
+      "when_to_consult": "Consult a doctor if symptoms persist or worsen",
+      "recommended_specialist": "General Physician",
+      "ayurvedic_remedies": "Consult an Ayurvedic practitioner for personalized treatment",
+      "contagious": false,
+      "duration_days": "Varies",
+      "complications": [
+        "If left untreated"
+      ]
+    },
+    {
+      "name": "Dengue",
+      "description": "A medical condition requiring attention. Consult a healthcare professional for proper diagnosis and treatment.",
+      "severity": "moderate",
+      "symptoms": [
+        "Varies by individual"
+      ],
+      "treatments": [
+        "Medical consultation required",
+        "Follow prescribed treatment plan",
+        "Rest and recovery"
+      ],
+      "prevention": [
+        "Regular health checkups",
+        "Maintain healthy lifestyle",
+        "Early detection and treatment"
+      ],
+      "when_to_consult": "Consult a doctor if symptoms persist or worsen",
+      "recommended_specialist": "General Physician",
+      "ayurvedic_remedies": "Consult an Ayurvedic practitioner for personalized treatment",
+      "contagious": false,
+      "duration_days": "Varies",
+      "complications": [
+        "If left untreated"
+      ]
+    },
+    {
+      "name": "Diabetes",
+      "description": "A medical condition requiring attention. Consult a healthcare professional for proper diagnosis and treatment.",
+      "severity": "moderate",
+      "symptoms": [
+        "Varies by individual"
+      ],
+      "treatments": [
+        "Medical consultation required",
+        "Follow prescribed treatment plan",
+        "Rest and recovery"
+      ],
+      "prevention": [
+        "Regular health checkups",
+        "Maintain healthy lifestyle",
+        "Early detection and treatment"
+      ],
+      "when_to_consult": "Consult a doctor if symptoms persist or worsen",
+      "recommended_specialist": "General Physician",
+      "ayurvedic_remedies": "Consult an Ayurvedic practitioner for personalized treatment",
+      "contagious": false,
+      "duration_days": "Varies",
+      "complications": [
+        "If left untreated"
+      ]
+    },
+    {
+      "name": "Dietary",
+      "description": "A medical condition requiring attention. Consult a healthcare professional for proper diagnosis and treatment.",
+      "severity": "mild",
+      "symptoms": [
+        "Varies by individual"
+      ],
+      "treatments": [
+        "Medical consultation required",
+        "Follow prescribed treatment plan",
+        "Rest and recovery"
+      ],
+      "prevention": [
+        "Regular health checkups",
+        "Maintain healthy lifestyle",
+        "Early detection and treatment"
+      ],
+      "when_to_consult": "Consult a doctor if symptoms persist or worsen",
+      "recommended_specialist": "General Physician",
+      "ayurvedic_remedies": "Consult an Ayurvedic practitioner for personalized treatment",
+      "contagious": false,
+      "duration_days": "Varies",
+      "complications": [
+        "If left untreated"
+      ]
+    },
+    {
+      "name": "Dry Cough",
+      "description": "A medical condition requiring attention. Consult a healthcare professional for proper diagnosis and treatment.",
+      "severity": "moderate",
+      "symptoms": [
+        "Varies by individual"
+      ],
+      "treatments": [
+        "Medical consultation required",
+        "Follow prescribed treatment plan",
+        "Rest and recovery"
+      ],
+      "prevention": [
+        "Regular health checkups",
+        "Maintain healthy lifestyle",
+        "Early detection and treatment"
+      ],
+      "when_to_consult": "Consult a doctor if symptoms persist or worsen",
+      "recommended_specialist": "General Physician",
+      "ayurvedic_remedies": "Consult an Ayurvedic practitioner for personalized treatment",
+      "contagious": false,
+      "duration_days": "Varies",
+      "complications": [
+        "If left untreated"
+      ]
+    },
+    {
+      "name": "Edema",
+      "description": "A medical condition requiring attention. Consult a healthcare professional for proper diagnosis and treatment.",
+      "severity": "mild",
+      "symptoms": [
+        "Varies by individual"
+      ],
+      "treatments": [
+        "Medical consultation required",
+        "Follow prescribed treatment plan",
+        "Rest and recovery"
+      ],
+      "prevention": [
+        "Regular health checkups",
+        "Maintain healthy lifestyle",
+        "Early detection and treatment"
+      ],
+      "when_to_consult": "Consult a doctor if symptoms persist or worsen",
+      "recommended_specialist": "General Physician",
+      "ayurvedic_remedies": "Consult an Ayurvedic practitioner for personalized treatment",
+      "contagious": false,
+      "duration_days": "Varies",
+      "complications": [
+        "If left untreated"
+      ]
+    },
+    {
+      "name": "Endocarditis",
+      "description": "A medical condition requiring attention. Consult a healthcare professional for proper diagnosis and treatment.",
+      "severity": "moderate",
+      "symptoms": [
+        "Varies by individual"
+      ],
+      "treatments": [
+        "Medical consultation required",
+        "Follow prescribed treatment plan",
+        "Rest and recovery"
+      ],
+      "prevention": [
+        "Regular health checkups",
+        "Maintain healthy lifestyle",
+        "Early detection and treatment"
+      ],
+      "when_to_consult": "Consult a doctor if symptoms persist or worsen",
+      "recommended_specialist": "General Physician",
+      "ayurvedic_remedies": "Consult an Ayurvedic practitioner for personalized treatment",
+      "contagious": false,
+      "duration_days": "Varies",
+      "complications": [
+        "If left untreated"
+      ]
+    },
+    {
+      "name": "Fibromyalgia",
+      "description": "A medical condition requiring attention. Consult a healthcare professional for proper diagnosis and treatment.",
+      "severity": "moderate",
+      "symptoms": [
+        "Varies by individual"
+      ],
+      "treatments": [
+        "Medical consultation required",
+        "Follow prescribed treatment plan",
+        "Rest and recovery"
+      ],
+      "prevention": [
+        "Regular health checkups",
+        "Maintain healthy lifestyle",
+        "Early detection and treatment"
+      ],
+      "when_to_consult": "Consult a doctor if symptoms persist or worsen",
+      "recommended_specialist": "General Physician",
+      "ayurvedic_remedies": "Consult an Ayurvedic practitioner for personalized treatment",
+      "contagious": false,
+      "duration_days": "Varies",
+      "complications": [
+        "If left untreated"
+      ]
+    },
+    {
+      "name": "GERD",
+      "description": "A medical condition requiring attention. Consult a healthcare professional for proper diagnosis and treatment.",
+      "severity": "mild",
+      "symptoms": [
+        "Varies by individual"
+      ],
+      "treatments": [
+        "Medical consultation required",
+        "Follow prescribed treatment plan",
+        "Rest and recovery"
+      ],
+      "prevention": [
+        "Regular health checkups",
+        "Maintain healthy lifestyle",
+        "Early detection and treatment"
+      ],
+      "when_to_consult": "Consult a doctor if symptoms persist or worsen",
+      "recommended_specialist": "General Physician",
+      "ayurvedic_remedies": "Consult an Ayurvedic practitioner for personalized treatment",
+      "contagious": false,
+      "duration_days": "Varies",
+      "complications": [
+        "If left untreated"
+      ]
+    },
+    {
+      "name": "Gastroenteritis",
+      "description": "A medical condition requiring attention. Consult a healthcare professional for proper diagnosis and treatment.",
+      "severity": "moderate",
+      "symptoms": [
+        "Varies by individual"
+      ],
+      "treatments": [
+        "Medical consultation required",
+        "Follow prescribed treatment plan",
+        "Rest and recovery"
+      ],
+      "prevention": [
+        "Regular health checkups",
+        "Maintain healthy lifestyle",
+        "Early detection and treatment"
+      ],
+      "when_to_consult": "Consult a doctor if symptoms persist or worsen",
+      "recommended_specialist": "General Physician",
+      "ayurvedic_remedies": "Consult an Ayurvedic practitioner for personalized treatment",
+      "contagious": false,
+      "duration_days": "Varies",
+      "complications": [
+        "If left untreated"
+      ]
+    },
+    {
+      "name": "Gout",
+      "description": "A medical condition requiring attention. Consult a healthcare professional for proper diagnosis and treatment.",
+      "severity": "moderate",
+      "symptoms": [
+        "Varies by individual"
+      ],
+      "treatments": [
+        "Medical consultation required",
+        "Follow prescribed treatment plan",
+        "Rest and recovery"
+      ],
+      "prevention": [
+        "Regular health checkups",
+        "Maintain healthy lifestyle",
+        "Early detection and treatment"
+      ],
+      "when_to_consult": "Consult a doctor if symptoms persist or worsen",
+      "recommended_specialist": "General Physician",
+      "ayurvedic_remedies": "Consult an Ayurvedic practitioner for personalized treatment",
+      "contagious": false,
+      "duration_days": "Varies",
+      "complications": [
+        "If left untreated"
+      ]
+    },
+    {
+      "name": "Hearing Loss",
+      "description": "A medical condition requiring attention. Consult a healthcare professional for proper diagnosis and treatment.",
+      "severity": "mild",
+      "symptoms": [
+        "Varies by individual"
+      ],
+      "treatments": [
+        "Medical consultation required",
+        "Follow prescribed treatment plan",
+        "Rest and recovery"
+      ],
+      "prevention": [
+        "Regular health checkups",
+        "Maintain healthy lifestyle",
+        "Early detection and treatment"
+      ],
+      "when_to_consult": "Consult a doctor if symptoms persist or worsen",
+      "recommended_specialist": "General Physician",
+      "ayurvedic_remedies": "Consult an Ayurvedic practitioner for personalized treatment",
+      "contagious": false,
+      "duration_days": "Varies",
+      "complications": [
+        "If left untreated"
+      ]
+    },
+    {
+      "name": "Heart Condition",
+      "description": "A medical condition requiring attention. Consult a healthcare professional for proper diagnosis and treatment.",
+      "severity": "moderate",
+      "symptoms": [
+        "Varies by individual"
+      ],
+      "treatments": [
+        "Medical consultation required",
+        "Follow prescribed treatment plan",
+        "Rest and recovery"
+      ],
+      "prevention": [
+        "Regular health checkups",
+        "Maintain healthy lifestyle",
+        "Early detection and treatment"
+      ],
+      "when_to_consult": "Consult a doctor if symptoms persist or worsen",
+      "recommended_specialist": "General Physician",
+      "ayurvedic_remedies": "Consult an Ayurvedic practitioner for personalized treatment",
+      "contagious": false,
+      "duration_days": "Varies",
+      "complications": [
+        "If left untreated"
+      ]
+    },
+    {
+      "name": "Heart Failure",
+      "description": "A medical condition requiring attention. Consult a healthcare professional for proper diagnosis and treatment.",
+      "severity": "severe",
+      "symptoms": [
+        "Varies by individual"
+      ],
+      "treatments": [
+        "Medical consultation required",
+        "Follow prescribed treatment plan",
+        "Rest and recovery"
+      ],
+      "prevention": [
+        "Regular health checkups",
+        "Maintain healthy lifestyle",
+        "Early detection and treatment"
+      ],
+      "when_to_consult": "Consult a doctor if symptoms persist or worsen",
+      "recommended_specialist": "General Physician",
+      "ayurvedic_remedies": "Consult an Ayurvedic practitioner for personalized treatment",
+      "contagious": false,
+      "duration_days": "Varies",
+      "complications": [
+        "If left untreated"
+      ]
+    },
+    {
+      "name": "Herniated Disc",
+      "description": "A medical condition requiring attention. Consult a healthcare professional for proper diagnosis and treatment.",
+      "severity": "moderate",
+      "symptoms": [
+        "Varies by individual"
+      ],
+      "treatments": [
+        "Medical consultation required",
+        "Follow prescribed treatment plan",
+        "Rest and recovery"
+      ],
+      "prevention": [
+        "Regular health checkups",
+        "Maintain healthy lifestyle",
+        "Early detection and treatment"
+      ],
+      "when_to_consult": "Consult a doctor if symptoms persist or worsen",
+      "recommended_specialist": "General Physician",
+      "ayurvedic_remedies": "Consult an Ayurvedic practitioner for personalized treatment",
+      "contagious": false,
+      "duration_days": "Varies",
+      "complications": [
+        "If left untreated"
+      ]
+    },
+    {
+      "name": "Indigestion",
+      "description": "A medical condition requiring attention. Consult a healthcare professional for proper diagnosis and treatment.",
+      "severity": "mild",
+      "symptoms": [
+        "Varies by individual"
+      ],
+      "treatments": [
+        "Medical consultation required",
+        "Follow prescribed treatment plan",
+        "Rest and recovery"
+      ],
+      "prevention": [
+        "Regular health checkups",
+        "Maintain healthy lifestyle",
+        "Early detection and treatment"
+      ],
+      "when_to_consult": "Consult a doctor if symptoms persist or worsen",
+      "recommended_specialist": "General Physician",
+      "ayurvedic_remedies": "Consult an Ayurvedic practitioner for personalized treatment",
+      "contagious": false,
+      "duration_days": "Varies",
+      "complications": [
+        "If left untreated"
+      ]
+    },
+    {
+      "name": "Infection",
+      "description": "A medical condition requiring attention. Consult a healthcare professional for proper diagnosis and treatment.",
+      "severity": "moderate",
+      "symptoms": [
+        "Varies by individual"
+      ],
+      "treatments": [
+        "Medical consultation required",
+        "Follow prescribed treatment plan",
+        "Rest and recovery"
+      ],
+      "prevention": [
+        "Regular health checkups",
+        "Maintain healthy lifestyle",
+        "Early detection and treatment"
+      ],
+      "when_to_consult": "Consult a doctor if symptoms persist or worsen",
+      "recommended_specialist": "General Physician",
+      "ayurvedic_remedies": "Consult an Ayurvedic practitioner for personalized treatment",
+      "contagious": false,
+      "duration_days": "Varies",
+      "complications": [
+        "If left untreated"
+      ]
+    },
+    {
+      "name": "Influenza",
+      "description": "A medical condition requiring attention. Consult a healthcare professional for proper diagnosis and treatment.",
+      "severity": "moderate",
+      "symptoms": [
+        "Varies by individual"
+      ],
+      "treatments": [
+        "Medical consultation required",
+        "Follow prescribed treatment plan",
+        "Rest and recovery"
+      ],
+      "prevention": [
+        "Regular health checkups",
+        "Maintain healthy lifestyle",
+        "Early detection and treatment"
+      ],
+      "when_to_consult": "Consult a doctor if symptoms persist or worsen",
+      "recommended_specialist": "General Physician",
+      "ayurvedic_remedies": "Consult an Ayurvedic practitioner for personalized treatment",
+      "contagious": false,
+      "duration_days": "Varies",
+      "complications": [
+        "If left untreated"
+      ]
+    },
+    {
+      "name": "Lupus",
+      "description": "A medical condition requiring attention. Consult a healthcare professional for proper diagnosis and treatment.",
+      "severity": "moderate",
+      "symptoms": [
+        "Varies by individual"
+      ],
+      "treatments": [
+        "Medical consultation required",
+        "Follow prescribed treatment plan",
+        "Rest and recovery"
+      ],
+      "prevention": [
+        "Regular health checkups",
+        "Maintain healthy lifestyle",
+        "Early detection and treatment"
+      ],
+      "when_to_consult": "Consult a doctor if symptoms persist or worsen",
+      "recommended_specialist": "General Physician",
+      "ayurvedic_remedies": "Consult an Ayurvedic practitioner for personalized treatment",
+      "contagious": false,
+      "duration_days": "Varies",
+      "complications": [
+        "If left untreated"
+      ]
+    },
+    {
+      "name": "Lyme Disease",
+      "description": "A medical condition requiring attention. Consult a healthcare professional for proper diagnosis and treatment.",
+      "severity": "moderate",
+      "symptoms": [
+        "Varies by individual"
+      ],
+      "treatments": [
+        "Medical consultation required",
+        "Follow prescribed treatment plan",
+        "Rest and recovery"
+      ],
+      "prevention": [
+        "Regular health checkups",
+        "Maintain healthy lifestyle",
+        "Early detection and treatment"
+      ],
+      "when_to_consult": "Consult a doctor if symptoms persist or worsen",
+      "recommended_specialist": "General Physician",
+      "ayurvedic_remedies": "Consult an Ayurvedic practitioner for personalized treatment",
+      "contagious": false,
+      "duration_days": "Varies",
+      "complications": [
+        "If left untreated"
+      ]
+    },
+    {
+      "name": "Major Depressive Disorder",
+      "description": "A medical condition requiring attention. Consult a healthcare professional for proper diagnosis and treatment.",
+      "severity": "moderate",
+      "symptoms": [
+        "Varies by individual"
+      ],
+      "treatments": [
+        "Medical consultation required",
+        "Follow prescribed treatment plan",
+        "Rest and recovery"
+      ],
+      "prevention": [
+        "Regular health checkups",
+        "Maintain healthy lifestyle",
+        "Early detection and treatment"
+      ],
+      "when_to_consult": "Consult a doctor if symptoms persist or worsen",
+      "recommended_specialist": "General Physician",
+      "ayurvedic_remedies": "Consult an Ayurvedic practitioner for personalized treatment",
+      "contagious": false,
+      "duration_days": "Varies",
+      "complications": [
+        "If left untreated"
+      ]
+    },
+    {
+      "name": "Measles",
+      "description": "A medical condition requiring attention. Consult a healthcare professional for proper diagnosis and treatment.",
+      "severity": "moderate",
+      "symptoms": [
+        "Varies by individual"
+      ],
+      "treatments": [
+        "Medical consultation required",
+        "Follow prescribed treatment plan",
+        "Rest and recovery"
+      ],
+      "prevention": [
+        "Regular health checkups",
+        "Maintain healthy lifestyle",
+        "Early detection and treatment"
+      ],
+      "when_to_consult": "Consult a doctor if symptoms persist or worsen",
+      "recommended_specialist": "General Physician",
+      "ayurvedic_remedies": "Consult an Ayurvedic practitioner for personalized treatment",
+      "contagious": false,
+      "duration_days": "Varies",
+      "complications": [
+        "If left untreated"
+      ]
+    },
+    {
+      "name": "Meniere's Disease",
+      "description": "A medical condition requiring attention. Consult a healthcare professional for proper diagnosis and treatment.",
+      "severity": "moderate",
+      "symptoms": [
+        "Varies by individual"
+      ],
+      "treatments": [
+        "Medical consultation required",
+        "Follow prescribed treatment plan",
+        "Rest and recovery"
+      ],
+      "prevention": [
+        "Regular health checkups",
+        "Maintain healthy lifestyle",
+        "Early detection and treatment"
+      ],
+      "when_to_consult": "Consult a doctor if symptoms persist or worsen",
+      "recommended_specialist": "General Physician",
+      "ayurvedic_remedies": "Consult an Ayurvedic practitioner for personalized treatment",
+      "contagious": false,
+      "duration_days": "Varies",
+      "complications": [
+        "If left untreated"
+      ]
+    },
+    {
+      "name": "Osteoarthritis",
+      "description": "A medical condition requiring attention. Consult a healthcare professional for proper diagnosis and treatment.",
+      "severity": "moderate",
+      "symptoms": [
+        "Varies by individual"
+      ],
+      "treatments": [
+        "Medical consultation required",
+        "Follow prescribed treatment plan",
+        "Rest and recovery"
+      ],
+      "prevention": [
+        "Regular health checkups",
+        "Maintain healthy lifestyle",
+        "Early detection and treatment"
+      ],
+      "when_to_consult": "Consult a doctor if symptoms persist or worsen",
+      "recommended_specialist": "General Physician",
+      "ayurvedic_remedies": "Consult an Ayurvedic practitioner for personalized treatment",
+      "contagious": false,
+      "duration_days": "Varies",
+      "complications": [
+        "If left untreated"
+      ]
+    },
+    {
+      "name": "Otitis Media",
+      "description": "A medical condition requiring attention. Consult a healthcare professional for proper diagnosis and treatment.",
+      "severity": "moderate",
+      "symptoms": [
+        "Varies by individual"
+      ],
+      "treatments": [
+        "Medical consultation required",
+        "Follow prescribed treatment plan",
+        "Rest and recovery"
+      ],
+      "prevention": [
+        "Regular health checkups",
+        "Maintain healthy lifestyle",
+        "Early detection and treatment"
+      ],
+      "when_to_consult": "Consult a doctor if symptoms persist or worsen",
+      "recommended_specialist": "General Physician",
+      "ayurvedic_remedies": "Consult an Ayurvedic practitioner for personalized treatment",
+      "contagious": false,
+      "duration_days": "Varies",
+      "complications": [
+        "If left untreated"
+      ]
+    },
+    {
+      "name": "Pancreatitis",
+      "description": "A medical condition requiring attention. Consult a healthcare professional for proper diagnosis and treatment.",
+      "severity": "moderate",
+      "symptoms": [
+        "Varies by individual"
+      ],
+      "treatments": [
+        "Medical consultation required",
+        "Follow prescribed treatment plan",
+        "Rest and recovery"
+      ],
+      "prevention": [
+        "Regular health checkups",
+        "Maintain healthy lifestyle",
+        "Early detection and treatment"
+      ],
+      "when_to_consult": "Consult a doctor if symptoms persist or worsen",
+      "recommended_specialist": "General Physician",
+      "ayurvedic_remedies": "Consult an Ayurvedic practitioner for personalized treatment",
+      "contagious": false,
+      "duration_days": "Varies",
+      "complications": [
+        "If left untreated"
+      ]
+    },
+    {
+      "name": "Panic Disorder",
+      "description": "A medical condition requiring attention. Consult a healthcare professional for proper diagnosis and treatment.",
+      "severity": "moderate",
+      "symptoms": [
+        "Varies by individual"
+      ],
+      "treatments": [
+        "Medical consultation required",
+        "Follow prescribed treatment plan",
+        "Rest and recovery"
+      ],
+      "prevention": [
+        "Regular health checkups",
+        "Maintain healthy lifestyle",
+        "Early detection and treatment"
+      ],
+      "when_to_consult": "Consult a doctor if symptoms persist or worsen",
+      "recommended_specialist": "General Physician",
+      "ayurvedic_remedies": "Consult an Ayurvedic practitioner for personalized treatment",
+      "contagious": false,
+      "duration_days": "Varies",
+      "complications": [
+        "If left untreated"
+      ]
+    },
+    {
+      "name": "Peptic Ulcer",
+      "description": "A medical condition requiring attention. Consult a healthcare professional for proper diagnosis and treatment.",
+      "severity": "moderate",
+      "symptoms": [
+        "Varies by individual"
+      ],
+      "treatments": [
+        "Medical consultation required",
+        "Follow prescribed treatment plan",
+        "Rest and recovery"
+      ],
+      "prevention": [
+        "Regular health checkups",
+        "Maintain healthy lifestyle",
+        "Early detection and treatment"
+      ],
+      "when_to_consult": "Consult a doctor if symptoms persist or worsen",
+      "recommended_specialist": "General Physician",
+      "ayurvedic_remedies": "Consult an Ayurvedic practitioner for personalized treatment",
+      "contagious": false,
+      "duration_days": "Varies",
+      "complications": [
+        "If left untreated"
+      ]
+    },
+    {
+      "name": "Psoriasis",
+      "description": "A medical condition requiring attention. Consult a healthcare professional for proper diagnosis and treatment.",
+      "severity": "moderate",
+      "symptoms": [
+        "Varies by individual"
+      ],
+      "treatments": [
+        "Medical consultation required",
+        "Follow prescribed treatment plan",
+        "Rest and recovery"
+      ],
+      "prevention": [
+        "Regular health checkups",
+        "Maintain healthy lifestyle",
+        "Early detection and treatment"
+      ],
+      "when_to_consult": "Consult a doctor if symptoms persist or worsen",
+      "recommended_specialist": "General Physician",
+      "ayurvedic_remedies": "Consult an Ayurvedic practitioner for personalized treatment",
+      "contagious": false,
+      "duration_days": "Varies",
+      "complications": [
+        "If left untreated"
+      ]
+    },
+    {
+      "name": "Psoriatic Arthritis",
+      "description": "A medical condition requiring attention. Consult a healthcare professional for proper diagnosis and treatment.",
+      "severity": "moderate",
+      "symptoms": [
+        "Varies by individual"
+      ],
+      "treatments": [
+        "Medical consultation required",
+        "Follow prescribed treatment plan",
+        "Rest and recovery"
+      ],
+      "prevention": [
+        "Regular health checkups",
+        "Maintain healthy lifestyle",
+        "Early detection and treatment"
+      ],
+      "when_to_consult": "Consult a doctor if symptoms persist or worsen",
+      "recommended_specialist": "General Physician",
+      "ayurvedic_remedies": "Consult an Ayurvedic practitioner for personalized treatment",
+      "contagious": false,
+      "duration_days": "Varies",
+      "complications": [
+        "If left untreated"
+      ]
+    },
+    {
+      "name": "Pulmonary Embolism",
+      "description": "A medical condition requiring attention. Consult a healthcare professional for proper diagnosis and treatment.",
+      "severity": "critical",
+      "symptoms": [
+        "Varies by individual"
+      ],
+      "treatments": [
+        "Medical consultation required",
+        "Follow prescribed treatment plan",
+        "Rest and recovery"
+      ],
+      "prevention": [
+        "Regular health checkups",
+        "Maintain healthy lifestyle",
+        "Early detection and treatment"
+      ],
+      "when_to_consult": "IMMEDIATELY - life-threatening emergency",
+      "recommended_specialist": "Emergency Medicine",
+      "ayurvedic_remedies": "Consult an Ayurvedic practitioner for personalized treatment",
+      "contagious": false,
+      "duration_days": "Varies",
+      "complications": [
+        "If left untreated"
+      ]
+    },
+    {
+      "name": "Pyelonephritis",
+      "description": "A medical condition requiring attention. Consult a healthcare professional for proper diagnosis and treatment.",
+      "severity": "moderate",
+      "symptoms": [
+        "Varies by individual"
+      ],
+      "treatments": [
+        "Medical consultation required",
+        "Follow prescribed treatment plan",
+        "Rest and recovery"
+      ],
+      "prevention": [
+        "Regular health checkups",
+        "Maintain healthy lifestyle",
+        "Early detection and treatment"
+      ],
+      "when_to_consult": "Consult a doctor if symptoms persist or worsen",
+      "recommended_specialist": "General Physician",
+      "ayurvedic_remedies": "Consult an Ayurvedic practitioner for personalized treatment",
+      "contagious": false,
+      "duration_days": "Varies",
+      "complications": [
+        "If left untreated"
+      ]
+    },
+    {
+      "name": "Rash",
+      "description": "A medical condition requiring attention. Consult a healthcare professional for proper diagnosis and treatment.",
+      "severity": "moderate",
+      "symptoms": [
+        "Varies by individual"
+      ],
+      "treatments": [
+        "Medical consultation required",
+        "Follow prescribed treatment plan",
+        "Rest and recovery"
+      ],
+      "prevention": [
+        "Regular health checkups",
+        "Maintain healthy lifestyle",
+        "Early detection and treatment"
+      ],
+      "when_to_consult": "Consult a doctor if symptoms persist or worsen",
+      "recommended_specialist": "General Physician",
+      "ayurvedic_remedies": "Consult an Ayurvedic practitioner for personalized treatment",
+      "contagious": false,
+      "duration_days": "Varies",
+      "complications": [
+        "If left untreated"
+      ]
+    },
+    {
+      "name": "Rheumatoid Arthritis",
+      "description": "A medical condition requiring attention. Consult a healthcare professional for proper diagnosis and treatment.",
+      "severity": "moderate",
+      "symptoms": [
+        "Varies by individual"
+      ],
+      "treatments": [
+        "Medical consultation required",
+        "Follow prescribed treatment plan",
+        "Rest and recovery"
+      ],
+      "prevention": [
+        "Regular health checkups",
+        "Maintain healthy lifestyle",
+        "Early detection and treatment"
+      ],
+      "when_to_consult": "Consult a doctor if symptoms persist or worsen",
+      "recommended_specialist": "General Physician",
+      "ayurvedic_remedies": "Consult an Ayurvedic practitioner for personalized treatment",
+      "contagious": false,
+      "duration_days": "Varies",
+      "complications": [
+        "If left untreated"
+      ]
+    },
+    {
+      "name": "Scarlet Fever",
+      "description": "A medical condition requiring attention. Consult a healthcare professional for proper diagnosis and treatment.",
+      "severity": "moderate",
+      "symptoms": [
+        "Varies by individual"
+      ],
+      "treatments": [
+        "Medical consultation required",
+        "Follow prescribed treatment plan",
+        "Rest and recovery"
+      ],
+      "prevention": [
+        "Regular health checkups",
+        "Maintain healthy lifestyle",
+        "Early detection and treatment"
+      ],
+      "when_to_consult": "Consult a doctor if symptoms persist or worsen",
+      "recommended_specialist": "General Physician",
+      "ayurvedic_remedies": "Consult an Ayurvedic practitioner for personalized treatment",
+      "contagious": false,
+      "duration_days": "Varies",
+      "complications": [
+        "If left untreated"
+      ]
+    },
+    {
+      "name": "Sleep Disorder",
+      "description": "A medical condition requiring attention. Consult a healthcare professional for proper diagnosis and treatment.",
+      "severity": "moderate",
+      "symptoms": [
+        "Varies by individual"
+      ],
+      "treatments": [
+        "Medical consultation required",
+        "Follow prescribed treatment plan",
+        "Rest and recovery"
+      ],
+      "prevention": [
+        "Regular health checkups",
+        "Maintain healthy lifestyle",
+        "Early detection and treatment"
+      ],
+      "when_to_consult": "Consult a doctor if symptoms persist or worsen",
+      "recommended_specialist": "General Physician",
+      "ayurvedic_remedies": "Consult an Ayurvedic practitioner for personalized treatment",
+      "contagious": false,
+      "duration_days": "Varies",
+      "complications": [
+        "If left untreated"
+      ]
+    },
+    {
+      "name": "Tonsillitis",
+      "description": "A medical condition requiring attention. Consult a healthcare professional for proper diagnosis and treatment.",
+      "severity": "moderate",
+      "symptoms": [
+        "Varies by individual"
+      ],
+      "treatments": [
+        "Medical consultation required",
+        "Follow prescribed treatment plan",
+        "Rest and recovery"
+      ],
+      "prevention": [
+        "Regular health checkups",
+        "Maintain healthy lifestyle",
+        "Early detection and treatment"
+      ],
+      "when_to_consult": "Consult a doctor if symptoms persist or worsen",
+      "recommended_specialist": "General Physician",
+      "ayurvedic_remedies": "Consult an Ayurvedic practitioner for personalized treatment",
+      "contagious": false,
+      "duration_days": "Varies",
+      "complications": [
+        "If left untreated"
+      ]
+    },
+    {
+      "name": "Typhoid",
+      "description": "A medical condition requiring attention. Consult a healthcare professional for proper diagnosis and treatment.",
+      "severity": "moderate",
+      "symptoms": [
+        "Varies by individual"
+      ],
+      "treatments": [
+        "Medical consultation required",
+        "Follow prescribed treatment plan",
+        "Rest and recovery"
+      ],
+      "prevention": [
+        "Regular health checkups",
+        "Maintain healthy lifestyle",
+        "Early detection and treatment"
+      ],
+      "when_to_consult": "Consult a doctor if symptoms persist or worsen",
+      "recommended_specialist": "General Physician",
+      "ayurvedic_remedies": "Consult an Ayurvedic practitioner for personalized treatment",
+      "contagious": false,
+      "duration_days": "Varies",
+      "complications": [
+        "If left untreated"
+      ]
+    },
+    {
+      "name": "Vertigo",
+      "description": "A medical condition requiring attention. Consult a healthcare professional for proper diagnosis and treatment.",
+      "severity": "moderate",
+      "symptoms": [
+        "Varies by individual"
+      ],
+      "treatments": [
+        "Medical consultation required",
+        "Follow prescribed treatment plan",
+        "Rest and recovery"
+      ],
+      "prevention": [
+        "Regular health checkups",
+        "Maintain healthy lifestyle",
+        "Early detection and treatment"
+      ],
+      "when_to_consult": "Consult a doctor if symptoms persist or worsen",
+      "recommended_specialist": "General Physician",
+      "ayurvedic_remedies": "Consult an Ayurvedic practitioner for personalized treatment",
+      "contagious": false,
+      "duration_days": "Varies",
+      "complications": [
+        "If left untreated"
+      ]
+    },
+    {
+      "name": "Viral Infection",
+      "description": "A medical condition requiring attention. Consult a healthcare professional for proper diagnosis and treatment.",
+      "severity": "moderate",
+      "symptoms": [
+        "Varies by individual"
+      ],
+      "treatments": [
+        "Medical consultation required",
+        "Follow prescribed treatment plan",
+        "Rest and recovery"
+      ],
+      "prevention": [
+        "Regular health checkups",
+        "Maintain healthy lifestyle",
+        "Early detection and treatment"
+      ],
+      "when_to_consult": "Consult a doctor if symptoms persist or worsen",
+      "recommended_specialist": "General Physician",
+      "ayurvedic_remedies": "Consult an Ayurvedic practitioner for personalized treatment",
+      "contagious": false,
+      "duration_days": "Varies",
+      "complications": [
+        "If left untreated"
+      ]
+    }
+  ]
+}

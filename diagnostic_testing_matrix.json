@@ -1,0 +1,108 @@
+{
+  "metadata": {
+    "version": "3.1.0",
+    "last_updated": "2026-05-02",
+    "description": "Diagnostic testing matrix with ICD codes and probability adjustments"
+  },
+  "symptoms": [
+    {
+      "symptom_name": "Fever",
+      "icd11_code": "MG26",
+      "emergency_flag": false,
+      "emergency_conditions": [],
+      "associated_conditions": [
+        {"rank": 1, "condition_name": "Viral Fever", "icd10_code": "R50.9", "base_probability": 0.85, "adjusted_probability": {"adult": 0.85, "child": 0.90, "elderly": 0.75, "with_comorbidity": 0.80}, "tests": [{"test_name": "CBC", "specificity": 0.85, "sensitivity": 0.80, "priority": "high", "prerequisites": [], "turnaround_hours": 2, "cost_category": "basic"}]},
+        {"rank": 2, "condition_name": "Malaria", "icd10_code": "B54", "base_probability": 0.70, "adjusted_probability": {"adult": 0.70, "child": 0.75, "elderly": 0.60, "with_comorbidity": 0.65}, "tests": [{"test_name": "Malaria Smear", "specificity": 0.95, "sensitivity": 0.90, "priority": "high", "prerequisites": [], "turnaround_hours": 4, "cost_category": "basic"}]},
+        {"rank": 3, "condition_name": "Dengue", "icd10_code": "A90", "base_probability": 0.65, "adjusted_probability": {"adult": 0.65, "child": 0.70, "elderly": 0.55, "with_comorbidity": 0.60}, "tests": [{"test_name": "NS1 Antigen", "specificity": 0.90, "sensitivity": 0.85, "priority": "high", "prerequisites": [], "turnaround_hours": 2, "cost_category": "basic"}]}
+      ]
+    },
+    {
+      "symptom_name": "Cough",
+      "icd11_code": "MD43",
+      "emergency_flag": false,
+      "emergency_conditions": [],
+      "associated_conditions": [
+        {"rank": 1, "condition_name": "Common Cold", "icd10_code": "J00", "base_probability": 0.85, "adjusted_probability": {"adult": 0.85, "child": 0.90, "elderly": 0.80, "with_comorbidity": 0.75}, "tests": []},
+        {"rank": 2, "condition_name": "Bronchitis", "icd10_code": "J40", "base_probability": 0.70, "adjusted_probability": {"adult": 0.70, "child": 0.65, "elderly": 0.75, "with_comorbidity": 0.72}, "tests": [{"test_name": "Chest X-Ray", "specificity": 0.85, "sensitivity": 0.80, "priority": "medium", "prerequisites": [], "turnaround_hours": 4, "cost_category": "basic"}]},
+        {"rank": 3, "condition_name": "Pneumonia", "icd10_code": "J18.9", "base_probability": 0.60, "adjusted_probability": {"adult": 0.60, "child": 0.65, "elderly": 0.70, "with_comorbidity": 0.65}, "tests": [{"test_name": "Chest X-Ray", "specificity": 0.90, "sensitivity": 0.85, "priority": "high", "prerequisites": [], "turnaround_hours": 4, "cost_category": "basic"}]}
+      ]
+    },
+    {
+      "symptom_name": "Headache",
+      "icd11_code": "8A93",
+      "emergency_flag": false,
+      "emergency_conditions": ["Meningitis", "Stroke", "Brain Tumor"],
+      "associated_conditions": [
+        {"rank": 1, "condition_name": "Migraine", "icd10_code": "G43.9", "base_probability": 0.70, "adjusted_probability": {"adult": 0.75, "child": 0.55, "elderly": 0.50, "with_comorbidity": 0.65}, "tests": []},
+        {"rank": 2, "condition_name": "Tension Headache", "icd10_code": "G44.209", "base_probability": 0.65, "adjusted_probability": {"adult": 0.65, "child": 0.50, "elderly": 0.55, "with_comorbidity": 0.60}, "tests": []},
+        {"rank": 3, "condition_name": "Sinusitis", "icd10_code": "J32.9", "base_probability": 0.55, "adjusted_probability": {"adult": 0.55, "child": 0.60, "elderly": 0.45, "with_comorbidity": 0.50}, "tests": [{"test_name": "CT Sinuses", "specificity": 0.90, "sensitivity": 0.85, "priority": "low", "prerequisites": [], "turnaround_hours": 24, "cost_category": "advanced"}]}
+      ]
+    },
+    {
+      "symptom_name": "Chest Pain",
+      "icd11_code": "MD99",
+      "emergency_flag": true,
+      "emergency_conditions": ["Myocardial Infarction", "Pulmonary Embolism", "Aortic Dissection"],
+      "associated_conditions": [
+        {"rank": 1, "condition_name": "Acidity / Gas", "icd10_code": "K20.9", "base_probability": 0.60, "adjusted_probability": {"adult": 0.60, "child": 0.30, "elderly": 0.65, "with_comorbidity": 0.55}, "tests": [{"test_name": "Upper GI Endoscopy", "specificity": 0.95, "sensitivity": 0.90, "priority": "medium", "prerequisites": ["Fasting 8 hours"], "turnaround_hours": 24, "cost_category": "advanced"}]},
+        {"rank": 2, "condition_name": "Angina", "icd10_code": "I20.9", "base_probability": 0.50, "adjusted_probability": {"adult": 0.50, "child": 0.05, "elderly": 0.70, "with_comorbidity": 0.65}, "tests": [{"test_name": "ECG", "specificity": 0.85, "sensitivity": 0.80, "priority": "high", "prerequisites": [], "turnaround_hours": 1, "cost_category": "basic"}, {"test_name": "Troponin", "specificity": 0.95, "sensitivity": 0.90, "priority": "high", "prerequisites": [], "turnaround_hours": 2, "cost_category": "basic"}]},
+        {"rank": 3, "condition_name": "Pleuritic Pain", "icd10_code": "R07.9", "base_probability": 0.40, "adjusted_probability": {"adult": 0.40, "child": 0.35, "elderly": 0.45, "with_comorbidity": 0.42}, "tests": [{"test_name": "Chest X-Ray", "specificity": 0.85, "sensitivity": 0.80, "priority": "high", "prerequisites": [], "turnaround_hours": 4, "cost_category": "basic"}]}
+      ]
+    },
+    {
+      "symptom_name": "Shortness of Breath",
+      "icd11_code": "MD11",
+      "emergency_flag": true,
+      "emergency_conditions": ["Acute Asthma", "Pulmonary Embolism", "Cardiac Failure"],
+      "associated_conditions": [
+        {"rank": 1, "condition_name": "Asthma", "icd10_code": "J45.9", "base_probability": 0.70, "adjusted_probability": {"adult": 0.65, "child": 0.80, "elderly": 0.55, "with_comorbidity": 0.60}, "tests": [{"test_name": "Spirometry", "specificity": 0.90, "sensitivity": 0.85, "priority": "high", "prerequisites": [], "turnaround_hours": 1, "cost_category": "basic"}]},
+        {"rank": 2, "condition_name": "Pneumonia", "icd10_code": "J18.9", "base_probability": 0.60, "adjusted_probability": {"adult": 0.60, "child": 0.65, "elderly": 0.70, "with_comorbidity": 0.65}, "tests": [{"test_name": "Chest X-Ray", "specificity": 0.90, "sensitivity": 0.85, "priority": "high", "prerequisites": [], "turnaround_hours": 4, "cost_category": "basic"}]},
+        {"rank": 3, "condition_name": "COPD", "icd10_code": "J44.9", "base_probability": 0.45, "adjusted_probability": {"adult": 0.50, "child": 0.05, "elderly": 0.65, "with_comorbidity": 0.55}, "tests": [{"test_name": "Spirometry", "specificity": 0.90, "sensitivity": 0.85, "priority": "high", "prerequisites": [], "turnaround_hours": 1, "cost_category": "basic"}]}
+      ]
+    },
+    {
+      "symptom_name": "Abdominal Pain",
+      "icd11_code": "MD85",
+      "emergency_flag": false,
+      "emergency_conditions": ["Appendicitis", "Perforated Ulcer", "Bowel Obstruction"],
+      "associated_conditions": [
+        {"rank": 1, "condition_name": "Gastroenteritis", "icd10_code": "K52.9", "base_probability": 0.70, "adjusted_probability": {"adult": 0.70, "child": 0.80, "elderly": 0.60, "with_comorbidity": 0.65}, "tests": [{"test_name": "Stool Culture", "specificity": 0.90, "sensitivity": 0.85, "priority": "medium", "prerequisites": [], "turnaround_hours": 48, "cost_category": "basic"}]},
+        {"rank": 2, "condition_name": "Food Poisoning", "icd10_code": "T65.1", "base_probability": 0.60, "adjusted_probability": {"adult": 0.60, "child": 0.65, "elderly": 0.55, "with_comorbidity": 0.58}, "tests": []},
+        {"rank": 3, "condition_name": "Peptic Ulcer", "icd10_code": "K27.9", "base_probability": 0.45, "adjusted_probability": {"adult": 0.45, "child": 0.20, "elderly": 0.60, "with_comorbidity": 0.50}, "tests": [{"test_name": "H. pylori Test", "specificity": 0.90, "sensitivity": 0.85, "priority": "medium", "prerequisites": [], "turnaround_hours": 24, "cost_category": "basic"}]}
+      ]
+    },
+    {
+      "symptom_name": "Nausea",
+      "icd11_code": "MD93",
+      "emergency_flag": false,
+      "emergency_conditions": ["Bowel Obstruction", "Increased Intracranial Pressure"],
+      "associated_conditions": [
+        {"rank": 1, "condition_name": "Gastroenteritis", "icd10_code": "K52.9", "base_probability": 0.65, "adjusted_probability": {"adult": 0.65, "child": 0.70, "elderly": 0.60, "with_comorbidity": 0.62}, "tests": [{"test_name": "Stool Culture", "specificity": 0.90, "sensitivity": 0.85, "priority": "medium", "prerequisites": [], "turnaround_hours": 48, "cost_category": "basic"}]},
+        {"rank": 2, "condition_name": "Food Poisoning", "icd10_code": "T65.1", "base_probability": 0.55, "adjusted_probability": {"adult": 0.55, "child": 0.60, "elderly": 0.50, "with_comorbidity": 0.53}, "tests": []},
+        {"rank": 3, "condition_name": "Migraine", "icd10_code": "G43.9", "base_probability": 0.40, "adjusted_probability": {"adult": 0.45, "child": 0.35, "elderly": 0.30, "with_comorbidity": 0.38}, "tests": []}
+      ]
+    },
+    {
+      "symptom_name": "Vomiting",
+      "icd11_code": "MD92",
+      "emergency_flag": false,
+      "emergency_conditions": ["Bowel Obstruction", "Toxic Ingestion"],
+      "associated_conditions": [
+        {"rank": 1, "condition_name": "Food Poisoning", "icd10_code": "T65.1", "base_probability": 0.70, "adjusted_probability": {"adult": 0.70, "child": 0.75, "elderly": 0.65, "with_comorbidity": 0.68}, "tests": []},
+        {"rank": 2, "condition_name": "Gastroenteritis", "icd10_code": "K52.9", "base_probability": 0.60, "adjusted_probability": {"adult": 0.60, "child": 0.65, "elderly": 0.55, "with_comorbidity": 0.58}, "tests": [{"test_name": "Stool Culture", "specificity": 0.90, "sensitivity": 0.85, "priority": "medium", "prerequisites": [], "turnaround_hours": 48, "cost_category": "basic"}]},
+        {"rank": 3, "condition_name": "Viral Fever", "icd10_code": "R50.9", "base_probability": 0.35, "adjusted_probability": {"adult": 0.35, "child": 0.45, "elderly": 0.30, "with_comorbidity": 0.32}, "tests": [{"test_name": "CBC", "specificity": 0.85, "sensitivity": 0.80, "priority": "high", "prerequisites": [], "turnaround_hours": 2, "cost_category": "basic"}]}
+      ]
+    },
+    {
+      "symptom_name": "Diarrhea",
+      "icd11_code": "ME60.1",
+      "emergency_flag": false,
+      "emergency_conditions": ["Severe Dehydration", "Bowel Obstruction"],
+      "associated_conditions": [
+        {"rank": 1, "condition_name": "Gastroenteritis", "icd10_code": "K52.9", "base_probability": 0.75, "adjusted_probability": {"adult": 0.75, "child": 0.80, "elderly": 0.70, "with_comorbidity": 0.72}, "tests": [{"test_name": "Stool Culture", "specificity": 0.90, "sensitivity": 0.85, "priority": "medium", "prerequisites": [], "turnaround_hours": 48, "cost_category": "basic"}]},
+        {"rank": 2, "condition_name": "Food Poisoning", "icd10_code": "T65.1", "base_probability": 0.65, "adjusted_probability": {"adult": 0.65, "child": 0.70, "elderly": 0.60, "with_comorbidity": 0.63}, "tests": []},
+        {"rank": 3, "condition_name": "Loose Motion", "icd10_code": "K59.1", "base_probability": 0.45, "adjusted_probability": {"adult": 0.45, "child": 0.50, "elderly": 0.40, "with_comorbidity": 0.42}, "tests": [{"test_name": "Stool O&P", "specificity": 0.85, "sensitivity": 0.80, "priority": "low", "prerequisites": [], "turnaround_hours": 24, "cost_category": "basic"}]}
+      ]
+    }
+  ]
+}

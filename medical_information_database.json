@@ -1,0 +1,1300 @@
+{
+  "metadata": {
+    "version": "1.0",
+    "total_diseases": 85,
+    "source": "symptom_disease_map.json",
+    "generated_date": "2026-06-02"
+  },
+  "disease_information": {
+    "Acidity": {
+      "disease_name": "Acidity",
+      "primary_treatment": "Antacids or proton pump inhibitors to neutralize stomach acid. Avoid trigger foods.",
+      "prevention_tips": [
+        "Avoid trigger foods",
+        "Eat smaller meals",
+        "Don't lie down after eating"
+      ],
+      "when_to_consult": [
+        "Persistent symptoms >2 weeks",
+        "Difficulty swallowing",
+        "Unexplained weight loss"
+      ],
+      "recommended_specialist": "Gastroenterologist",
+      "ayurvedic_prevention_remedies": {
+        "herbs": [
+          "Amla",
+          "Yashtimadhu",
+          "Shankhapushpi"
+        ],
+        "diet": [
+          "Avoid spicy foods",
+          "Eat cooling foods like cucumber"
+        ],
+        "lifestyle": [
+          "Regular meal times",
+          "Stress management"
+        ],
+        "yoga": [
+          "Vajrasana",
+          "Sheetali pranayama"
+        ],
+        "disclaimer": "Ayurvedic remedies may support overall wellness but are not a substitute for professional medical diagnosis or treatment."
+      }
+    },
+    "Acidity / Gas": {
+      "disease_name": "Acidity / Gas",
+      "primary_treatment": "",
+      "prevention_tips": [],
+      "when_to_consult": [],
+      "recommended_specialist": "",
+      "ayurvedic_prevention_remedies": {
+        "herbs": [],
+        "diet": [],
+        "lifestyle": [],
+        "yoga": [],
+        "disclaimer": "Ayurvedic remedies may support overall wellness but are not a substitute for professional medical diagnosis or treatment."
+      }
+    },
+    "Allergic Rhinitis": {
+      "disease_name": "Allergic Rhinitis",
+      "primary_treatment": "",
+      "prevention_tips": [],
+      "when_to_consult": [],
+      "recommended_specialist": "",
+      "ayurvedic_prevention_remedies": {
+        "herbs": [],
+        "diet": [],
+        "lifestyle": [],
+        "yoga": [],
+        "disclaimer": "Ayurvedic remedies may support overall wellness but are not a substitute for professional medical diagnosis or treatment."
+      }
+    },
+    "Allergy": {
+      "disease_name": "Allergy",
+      "primary_treatment": "",
+      "prevention_tips": [],
+      "when_to_consult": [],
+      "recommended_specialist": "",
+      "ayurvedic_prevention_remedies": {
+        "herbs": [],
+        "diet": [],
+        "lifestyle": [],
+        "yoga": [],
+        "disclaimer": "Ayurvedic remedies may support overall wellness but are not a substitute for professional medical diagnosis or treatment."
+      }
+    },
+    "Anaphylaxis": {
+      "disease_name": "Anaphylaxis",
+      "primary_treatment": "Epinephrine injection immediately",
+      "prevention_tips": [
+        "Carry epinephrine auto-injector",
+        "Avoid known allergens"
+      ],
+      "when_to_consult": [
+        "Severe allergic reaction",
+        "Trouble breathing",
+        "Swelling of throat"
+      ],
+      "recommended_specialist": "Allergist",
+      "ayurvedic_prevention_remedies": {
+        "herbs": [
+          "Consult Ayurvedic practitioner"
+        ],
+        "diet": [
+          "Avoid allergens",
+          "Simple clean diet"
+        ],
+        "lifestyle": [
+          "Medical alert tags",
+          "Emergency plan"
+        ],
+        "yoga": [
+          "Stress management"
+        ],
+        "disclaimer": "Ayurvedic remedies may support overall wellness but are not a substitute for professional medical diagnosis or treatment."
+      }
+    },
+    "Anemia": {
+      "disease_name": "Anemia",
+      "primary_treatment": "",
+      "prevention_tips": [],
+      "when_to_consult": [],
+      "recommended_specialist": "",
+      "ayurvedic_prevention_remedies": {
+        "herbs": [],
+        "diet": [],
+        "lifestyle": [],
+        "yoga": [],
+        "disclaimer": "Ayurvedic remedies may support overall wellness but are not a substitute for professional medical diagnosis or treatment."
+      }
+    },
+    "Angina": {
+      "disease_name": "Angina",
+      "primary_treatment": "",
+      "prevention_tips": [],
+      "when_to_consult": [],
+      "recommended_specialist": "",
+      "ayurvedic_prevention_remedies": {
+        "herbs": [],
+        "diet": [],
+        "lifestyle": [],
+        "yoga": [],
+        "disclaimer": "Ayurvedic remedies may support overall wellness but are not a substitute for professional medical diagnosis or treatment."
+      }
+    },
+    "Aortic Dissection": {
+      "disease_name": "Aortic Dissection",
+      "primary_treatment": "",
+      "prevention_tips": [],
+      "when_to_consult": [],
+      "recommended_specialist": "",
+      "ayurvedic_prevention_remedies": {
+        "herbs": [],
+        "diet": [],
+        "lifestyle": [],
+        "yoga": [],
+        "disclaimer": "Ayurvedic remedies may support overall wellness but are not a substitute for professional medical diagnosis or treatment."
+      }
+    },
+    "Arthritis": {
+      "disease_name": "Arthritis",
+      "primary_treatment": "",
+      "prevention_tips": [],
+      "when_to_consult": [],
+      "recommended_specialist": "",
+      "ayurvedic_prevention_remedies": {
+        "herbs": [],
+        "diet": [],
+        "lifestyle": [],
+        "yoga": [],
+        "disclaimer": "Ayurvedic remedies may support overall wellness but are not a substitute for professional medical diagnosis or treatment."
+      }
+    },
+    "Asthma": {
+      "disease_name": "Asthma",
+      "primary_treatment": "Inhaled corticosteroids and bronchodilators",
+      "prevention_tips": [
+        "Avoid triggers",
+        "Use air purifiers",
+        "Regular exercise"
+      ],
+      "when_to_consult": [
+        "Frequent attacks",
+        "Wheezing",
+        "Night symptoms"
+      ],
+      "recommended_specialist": "Pulmonologist",
+      "ayurvedic_prevention_remedies": {
+        "herbs": [
+          "Tulsi",
+          "Vasa",
+          "Licorice"
+        ],
+        "diet": [
+          "Warm foods",
+          "Honey and ginger"
+        ],
+        "lifestyle": [
+          "Clean air",
+          "Avoid smoke"
+        ],
+        "yoga": [
+          "Bhramari pranayama",
+          "Matsyasana"
+        ],
+        "disclaimer": "Ayurvedic remedies may support overall wellness but are not a substitute for professional medical diagnosis or treatment."
+      }
+    },
+    "Asthma / Allergy": {
+      "disease_name": "Asthma / Allergy",
+      "primary_treatment": "",
+      "prevention_tips": [],
+      "when_to_consult": [],
+      "recommended_specialist": "",
+      "ayurvedic_prevention_remedies": {
+        "herbs": [],
+        "diet": [],
+        "lifestyle": [],
+        "yoga": [],
+        "disclaimer": "Ayurvedic remedies may support overall wellness but are not a substitute for professional medical diagnosis or treatment."
+      }
+    },
+    "Back Pain": {
+      "disease_name": "Back Pain",
+      "primary_treatment": "",
+      "prevention_tips": [],
+      "when_to_consult": [],
+      "recommended_specialist": "",
+      "ayurvedic_prevention_remedies": {
+        "herbs": [],
+        "diet": [],
+        "lifestyle": [],
+        "yoga": [],
+        "disclaimer": "Ayurvedic remedies may support overall wellness but are not a substitute for professional medical diagnosis or treatment."
+      }
+    },
+    "Body Ache": {
+      "disease_name": "Body Ache",
+      "primary_treatment": "",
+      "prevention_tips": [],
+      "when_to_consult": [],
+      "recommended_specialist": "",
+      "ayurvedic_prevention_remedies": {
+        "herbs": [],
+        "diet": [],
+        "lifestyle": [],
+        "yoga": [],
+        "disclaimer": "Ayurvedic remedies may support overall wellness but are not a substitute for professional medical diagnosis or treatment."
+      }
+    },
+    "Body Pain": {
+      "disease_name": "Body Pain",
+      "primary_treatment": "",
+      "prevention_tips": [],
+      "when_to_consult": [],
+      "recommended_specialist": "",
+      "ayurvedic_prevention_remedies": {
+        "herbs": [],
+        "diet": [],
+        "lifestyle": [],
+        "yoga": [],
+        "disclaimer": "Ayurvedic remedies may support overall wellness but are not a substitute for professional medical diagnosis or treatment."
+      }
+    },
+    "Breathing Problem": {
+      "disease_name": "Breathing Problem",
+      "primary_treatment": "",
+      "prevention_tips": [],
+      "when_to_consult": [],
+      "recommended_specialist": "",
+      "ayurvedic_prevention_remedies": {
+        "herbs": [],
+        "diet": [],
+        "lifestyle": [],
+        "yoga": [],
+        "disclaimer": "Ayurvedic remedies may support overall wellness but are not a substitute for professional medical diagnosis or treatment."
+      }
+    },
+    "Bronchitis": {
+      "disease_name": "Bronchitis",
+      "primary_treatment": "",
+      "prevention_tips": [],
+      "when_to_consult": [],
+      "recommended_specialist": "",
+      "ayurvedic_prevention_remedies": {
+        "herbs": [],
+        "diet": [],
+        "lifestyle": [],
+        "yoga": [],
+        "disclaimer": "Ayurvedic remedies may support overall wellness but are not a substitute for professional medical diagnosis or treatment."
+      }
+    },
+    "COVID-19": {
+      "disease_name": "COVID-19",
+      "primary_treatment": "",
+      "prevention_tips": [],
+      "when_to_consult": [],
+      "recommended_specialist": "",
+      "ayurvedic_prevention_remedies": {
+        "herbs": [],
+        "diet": [],
+        "lifestyle": [],
+        "yoga": [],
+        "disclaimer": "Ayurvedic remedies may support overall wellness but are not a substitute for professional medical diagnosis or treatment."
+      }
+    },
+    "Chickenpox": {
+      "disease_name": "Chickenpox",
+      "primary_treatment": "",
+      "prevention_tips": [],
+      "when_to_consult": [],
+      "recommended_specialist": "",
+      "ayurvedic_prevention_remedies": {
+        "herbs": [],
+        "diet": [],
+        "lifestyle": [],
+        "yoga": [],
+        "disclaimer": "Ayurvedic remedies may support overall wellness but are not a substitute for professional medical diagnosis or treatment."
+      }
+    },
+    "Chikungunya": {
+      "disease_name": "Chikungunya",
+      "primary_treatment": "",
+      "prevention_tips": [],
+      "when_to_consult": [],
+      "recommended_specialist": "",
+      "ayurvedic_prevention_remedies": {
+        "herbs": [],
+        "diet": [],
+        "lifestyle": [],
+        "yoga": [],
+        "disclaimer": "Ayurvedic remedies may support overall wellness but are not a substitute for professional medical diagnosis or treatment."
+      }
+    },
+    "Chronic Fatigue": {
+      "disease_name": "Chronic Fatigue",
+      "primary_treatment": "",
+      "prevention_tips": [],
+      "when_to_consult": [],
+      "recommended_specialist": "",
+      "ayurvedic_prevention_remedies": {
+        "herbs": [],
+        "diet": [],
+        "lifestyle": [],
+        "yoga": [],
+        "disclaimer": "Ayurvedic remedies may support overall wellness but are not a substitute for professional medical diagnosis or treatment."
+      }
+    },
+    "Chronic Fatigue Syndrome": {
+      "disease_name": "Chronic Fatigue Syndrome",
+      "primary_treatment": "",
+      "prevention_tips": [],
+      "when_to_consult": [],
+      "recommended_specialist": "",
+      "ayurvedic_prevention_remedies": {
+        "herbs": [],
+        "diet": [],
+        "lifestyle": [],
+        "yoga": [],
+        "disclaimer": "Ayurvedic remedies may support overall wellness but are not a substitute for professional medical diagnosis or treatment."
+      }
+    },
+    "Cold / Allergies": {
+      "disease_name": "Cold / Allergies",
+      "primary_treatment": "",
+      "prevention_tips": [],
+      "when_to_consult": [],
+      "recommended_specialist": "",
+      "ayurvedic_prevention_remedies": {
+        "herbs": [],
+        "diet": [],
+        "lifestyle": [],
+        "yoga": [],
+        "disclaimer": "Ayurvedic remedies may support overall wellness but are not a substitute for professional medical diagnosis or treatment."
+      }
+    },
+    "Common Cold": {
+      "disease_name": "Common Cold",
+      "primary_treatment": "",
+      "prevention_tips": [],
+      "when_to_consult": [],
+      "recommended_specialist": "",
+      "ayurvedic_prevention_remedies": {
+        "herbs": [],
+        "diet": [],
+        "lifestyle": [],
+        "yoga": [],
+        "disclaimer": "Ayurvedic remedies may support overall wellness but are not a substitute for professional medical diagnosis or treatment."
+      }
+    },
+    "Contact Dermatitis": {
+      "disease_name": "Contact Dermatitis",
+      "primary_treatment": "",
+      "prevention_tips": [],
+      "when_to_consult": [],
+      "recommended_specialist": "",
+      "ayurvedic_prevention_remedies": {
+        "herbs": [],
+        "diet": [],
+        "lifestyle": [],
+        "yoga": [],
+        "disclaimer": "Ayurvedic remedies may support overall wellness but are not a substitute for professional medical diagnosis or treatment."
+      }
+    },
+    "Cough Syndrome": {
+      "disease_name": "Cough Syndrome",
+      "primary_treatment": "",
+      "prevention_tips": [],
+      "when_to_consult": [],
+      "recommended_specialist": "",
+      "ayurvedic_prevention_remedies": {
+        "herbs": [],
+        "diet": [],
+        "lifestyle": [],
+        "yoga": [],
+        "disclaimer": "Ayurvedic remedies may support overall wellness but are not a substitute for professional medical diagnosis or treatment."
+      }
+    },
+    "Dengue": {
+      "disease_name": "Dengue",
+      "primary_treatment": "",
+      "prevention_tips": [],
+      "when_to_consult": [],
+      "recommended_specialist": "",
+      "ayurvedic_prevention_remedies": {
+        "herbs": [],
+        "diet": [],
+        "lifestyle": [],
+        "yoga": [],
+        "disclaimer": "Ayurvedic remedies may support overall wellness but are not a substitute for professional medical diagnosis or treatment."
+      }
+    },
+    "Diabetes": {
+      "disease_name": "Diabetes",
+      "primary_treatment": "Metformin or insulin with blood sugar monitoring",
+      "prevention_tips": [
+        "Healthy weight",
+        "Regular exercise",
+        "Balanced diet"
+      ],
+      "when_to_consult": [
+        "Frequent urination",
+        "Excessive thirst",
+        "Unexplained weight loss"
+      ],
+      "recommended_specialist": "Endocrinologist",
+      "ayurvedic_prevention_remedies": {
+        "herbs": [
+          "Gudmar",
+          "Bitter gourd",
+          "Fenugreek"
+        ],
+        "diet": [
+          "Low GI foods",
+          "Avoid refined sugars"
+        ],
+        "lifestyle": [
+          "Regular exercise",
+          "Monitor sugar levels"
+        ],
+        "yoga": [
+          "Dhanurasana",
+          "Pranayama"
+        ],
+        "disclaimer": "Ayurvedic remedies may support overall wellness but are not a substitute for professional medical diagnosis or treatment."
+      }
+    },
+    "Dietary": {
+      "disease_name": "Dietary",
+      "primary_treatment": "",
+      "prevention_tips": [],
+      "when_to_consult": [],
+      "recommended_specialist": "",
+      "ayurvedic_prevention_remedies": {
+        "herbs": [],
+        "diet": [],
+        "lifestyle": [],
+        "yoga": [],
+        "disclaimer": "Ayurvedic remedies may support overall wellness but are not a substitute for professional medical diagnosis or treatment."
+      }
+    },
+    "Dry Cough": {
+      "disease_name": "Dry Cough",
+      "primary_treatment": "",
+      "prevention_tips": [],
+      "when_to_consult": [],
+      "recommended_specialist": "",
+      "ayurvedic_prevention_remedies": {
+        "herbs": [],
+        "diet": [],
+        "lifestyle": [],
+        "yoga": [],
+        "disclaimer": "Ayurvedic remedies may support overall wellness but are not a substitute for professional medical diagnosis or treatment."
+      }
+    },
+    "Ear Blockage": {
+      "disease_name": "Ear Blockage",
+      "primary_treatment": "",
+      "prevention_tips": [],
+      "when_to_consult": [],
+      "recommended_specialist": "",
+      "ayurvedic_prevention_remedies": {
+        "herbs": [],
+        "diet": [],
+        "lifestyle": [],
+        "yoga": [],
+        "disclaimer": "Ayurvedic remedies may support overall wellness but are not a substitute for professional medical diagnosis or treatment."
+      }
+    },
+    "Edema": {
+      "disease_name": "Edema",
+      "primary_treatment": "",
+      "prevention_tips": [],
+      "when_to_consult": [],
+      "recommended_specialist": "",
+      "ayurvedic_prevention_remedies": {
+        "herbs": [],
+        "diet": [],
+        "lifestyle": [],
+        "yoga": [],
+        "disclaimer": "Ayurvedic remedies may support overall wellness but are not a substitute for professional medical diagnosis or treatment."
+      }
+    },
+    "Endocarditis": {
+      "disease_name": "Endocarditis",
+      "primary_treatment": "",
+      "prevention_tips": [],
+      "when_to_consult": [],
+      "recommended_specialist": "",
+      "ayurvedic_prevention_remedies": {
+        "herbs": [],
+        "diet": [],
+        "lifestyle": [],
+        "yoga": [],
+        "disclaimer": "Ayurvedic remedies may support overall wellness but are not a substitute for professional medical diagnosis or treatment."
+      }
+    },
+    "Eye Strain": {
+      "disease_name": "Eye Strain",
+      "primary_treatment": "",
+      "prevention_tips": [],
+      "when_to_consult": [],
+      "recommended_specialist": "",
+      "ayurvedic_prevention_remedies": {
+        "herbs": [],
+        "diet": [],
+        "lifestyle": [],
+        "yoga": [],
+        "disclaimer": "Ayurvedic remedies may support overall wellness but are not a substitute for professional medical diagnosis or treatment."
+      }
+    },
+    "Fibromyalgia": {
+      "disease_name": "Fibromyalgia",
+      "primary_treatment": "",
+      "prevention_tips": [],
+      "when_to_consult": [],
+      "recommended_specialist": "",
+      "ayurvedic_prevention_remedies": {
+        "herbs": [],
+        "diet": [],
+        "lifestyle": [],
+        "yoga": [],
+        "disclaimer": "Ayurvedic remedies may support overall wellness but are not a substitute for professional medical diagnosis or treatment."
+      }
+    },
+    "Food Poisoning": {
+      "disease_name": "Food Poisoning",
+      "primary_treatment": "",
+      "prevention_tips": [],
+      "when_to_consult": [],
+      "recommended_specialist": "",
+      "ayurvedic_prevention_remedies": {
+        "herbs": [],
+        "diet": [],
+        "lifestyle": [],
+        "yoga": [],
+        "disclaimer": "Ayurvedic remedies may support overall wellness but are not a substitute for professional medical diagnosis or treatment."
+      }
+    },
+    "GERD": {
+      "disease_name": "GERD",
+      "primary_treatment": "",
+      "prevention_tips": [],
+      "when_to_consult": [],
+      "recommended_specialist": "",
+      "ayurvedic_prevention_remedies": {
+        "herbs": [],
+        "diet": [],
+        "lifestyle": [],
+        "yoga": [],
+        "disclaimer": "Ayurvedic remedies may support overall wellness but are not a substitute for professional medical diagnosis or treatment."
+      }
+    },
+    "Gastroenteritis": {
+      "disease_name": "Gastroenteritis",
+      "primary_treatment": "",
+      "prevention_tips": [],
+      "when_to_consult": [],
+      "recommended_specialist": "",
+      "ayurvedic_prevention_remedies": {
+        "herbs": [],
+        "diet": [],
+        "lifestyle": [],
+        "yoga": [],
+        "disclaimer": "Ayurvedic remedies may support overall wellness but are not a substitute for professional medical diagnosis or treatment."
+      }
+    },
+    "Gout": {
+      "disease_name": "Gout",
+      "primary_treatment": "",
+      "prevention_tips": [],
+      "when_to_consult": [],
+      "recommended_specialist": "",
+      "ayurvedic_prevention_remedies": {
+        "herbs": [],
+        "diet": [],
+        "lifestyle": [],
+        "yoga": [],
+        "disclaimer": "Ayurvedic remedies may support overall wellness but are not a substitute for professional medical diagnosis or treatment."
+      }
+    },
+    "Hearing Loss": {
+      "disease_name": "Hearing Loss",
+      "primary_treatment": "",
+      "prevention_tips": [],
+      "when_to_consult": [],
+      "recommended_specialist": "",
+      "ayurvedic_prevention_remedies": {
+        "herbs": [],
+        "diet": [],
+        "lifestyle": [],
+        "yoga": [],
+        "disclaimer": "Ayurvedic remedies may support overall wellness but are not a substitute for professional medical diagnosis or treatment."
+      }
+    },
+    "Heart Attack": {
+      "disease_name": "Heart Attack",
+      "primary_treatment": "",
+      "prevention_tips": [],
+      "when_to_consult": [],
+      "recommended_specialist": "",
+      "ayurvedic_prevention_remedies": {
+        "herbs": [],
+        "diet": [],
+        "lifestyle": [],
+        "yoga": [],
+        "disclaimer": "Ayurvedic remedies may support overall wellness but are not a substitute for professional medical diagnosis or treatment."
+      }
+    },
+    "Heart Condition": {
+      "disease_name": "Heart Condition",
+      "primary_treatment": "",
+      "prevention_tips": [],
+      "when_to_consult": [],
+      "recommended_specialist": "",
+      "ayurvedic_prevention_remedies": {
+        "herbs": [],
+        "diet": [],
+        "lifestyle": [],
+        "yoga": [],
+        "disclaimer": "Ayurvedic remedies may support overall wellness but are not a substitute for professional medical diagnosis or treatment."
+      }
+    },
+    "Heart Failure": {
+      "disease_name": "Heart Failure",
+      "primary_treatment": "",
+      "prevention_tips": [],
+      "when_to_consult": [],
+      "recommended_specialist": "",
+      "ayurvedic_prevention_remedies": {
+        "herbs": [],
+        "diet": [],
+        "lifestyle": [],
+        "yoga": [],
+        "disclaimer": "Ayurvedic remedies may support overall wellness but are not a substitute for professional medical diagnosis or treatment."
+      }
+    },
+    "Herniated Disc": {
+      "disease_name": "Herniated Disc",
+      "primary_treatment": "",
+      "prevention_tips": [],
+      "when_to_consult": [],
+      "recommended_specialist": "",
+      "ayurvedic_prevention_remedies": {
+        "herbs": [],
+        "diet": [],
+        "lifestyle": [],
+        "yoga": [],
+        "disclaimer": "Ayurvedic remedies may support overall wellness but are not a substitute for professional medical diagnosis or treatment."
+      }
+    },
+    "Indigestion": {
+      "disease_name": "Indigestion",
+      "primary_treatment": "",
+      "prevention_tips": [],
+      "when_to_consult": [],
+      "recommended_specialist": "",
+      "ayurvedic_prevention_remedies": {
+        "herbs": [],
+        "diet": [],
+        "lifestyle": [],
+        "yoga": [],
+        "disclaimer": "Ayurvedic remedies may support overall wellness but are not a substitute for professional medical diagnosis or treatment."
+      }
+    },
+    "Infection": {
+      "disease_name": "Infection",
+      "primary_treatment": "",
+      "prevention_tips": [],
+      "when_to_consult": [],
+      "recommended_specialist": "",
+      "ayurvedic_prevention_remedies": {
+        "herbs": [],
+        "diet": [],
+        "lifestyle": [],
+        "yoga": [],
+        "disclaimer": "Ayurvedic remedies may support overall wellness but are not a substitute for professional medical diagnosis or treatment."
+      }
+    },
+    "Inflammation": {
+      "disease_name": "Inflammation",
+      "primary_treatment": "",
+      "prevention_tips": [],
+      "when_to_consult": [],
+      "recommended_specialist": "",
+      "ayurvedic_prevention_remedies": {
+        "herbs": [],
+        "diet": [],
+        "lifestyle": [],
+        "yoga": [],
+        "disclaimer": "Ayurvedic remedies may support overall wellness but are not a substitute for professional medical diagnosis or treatment."
+      }
+    },
+    "Influenza": {
+      "disease_name": "Influenza",
+      "primary_treatment": "",
+      "prevention_tips": [],
+      "when_to_consult": [],
+      "recommended_specialist": "",
+      "ayurvedic_prevention_remedies": {
+        "herbs": [],
+        "diet": [],
+        "lifestyle": [],
+        "yoga": [],
+        "disclaimer": "Ayurvedic remedies may support overall wellness but are not a substitute for professional medical diagnosis or treatment."
+      }
+    },
+    "Loose Motion": {
+      "disease_name": "Loose Motion",
+      "primary_treatment": "",
+      "prevention_tips": [],
+      "when_to_consult": [],
+      "recommended_specialist": "",
+      "ayurvedic_prevention_remedies": {
+        "herbs": [],
+        "diet": [],
+        "lifestyle": [],
+        "yoga": [],
+        "disclaimer": "Ayurvedic remedies may support overall wellness but are not a substitute for professional medical diagnosis or treatment."
+      }
+    },
+    "Low BP / Weakness": {
+      "disease_name": "Low BP / Weakness",
+      "primary_treatment": "",
+      "prevention_tips": [],
+      "when_to_consult": [],
+      "recommended_specialist": "",
+      "ayurvedic_prevention_remedies": {
+        "herbs": [],
+        "diet": [],
+        "lifestyle": [],
+        "yoga": [],
+        "disclaimer": "Ayurvedic remedies may support overall wellness but are not a substitute for professional medical diagnosis or treatment."
+      }
+    },
+    "Lupus": {
+      "disease_name": "Lupus",
+      "primary_treatment": "",
+      "prevention_tips": [],
+      "when_to_consult": [],
+      "recommended_specialist": "",
+      "ayurvedic_prevention_remedies": {
+        "herbs": [],
+        "diet": [],
+        "lifestyle": [],
+        "yoga": [],
+        "disclaimer": "Ayurvedic remedies may support overall wellness but are not a substitute for professional medical diagnosis or treatment."
+      }
+    },
+    "Lyme Disease": {
+      "disease_name": "Lyme Disease",
+      "primary_treatment": "",
+      "prevention_tips": [],
+      "when_to_consult": [],
+      "recommended_specialist": "",
+      "ayurvedic_prevention_remedies": {
+        "herbs": [],
+        "diet": [],
+        "lifestyle": [],
+        "yoga": [],
+        "disclaimer": "Ayurvedic remedies may support overall wellness but are not a substitute for professional medical diagnosis or treatment."
+      }
+    },
+    "Major Depressive Disorder": {
+      "disease_name": "Major Depressive Disorder",
+      "primary_treatment": "",
+      "prevention_tips": [],
+      "when_to_consult": [],
+      "recommended_specialist": "",
+      "ayurvedic_prevention_remedies": {
+        "herbs": [],
+        "diet": [],
+        "lifestyle": [],
+        "yoga": [],
+        "disclaimer": "Ayurvedic remedies may support overall wellness but are not a substitute for professional medical diagnosis or treatment."
+      }
+    },
+    "Measles": {
+      "disease_name": "Measles",
+      "primary_treatment": "",
+      "prevention_tips": [],
+      "when_to_consult": [],
+      "recommended_specialist": "",
+      "ayurvedic_prevention_remedies": {
+        "herbs": [],
+        "diet": [],
+        "lifestyle": [],
+        "yoga": [],
+        "disclaimer": "Ayurvedic remedies may support overall wellness but are not a substitute for professional medical diagnosis or treatment."
+      }
+    },
+    "Meniere's Disease": {
+      "disease_name": "Meniere's Disease",
+      "primary_treatment": "",
+      "prevention_tips": [],
+      "when_to_consult": [],
+      "recommended_specialist": "",
+      "ayurvedic_prevention_remedies": {
+        "herbs": [],
+        "diet": [],
+        "lifestyle": [],
+        "yoga": [],
+        "disclaimer": "Ayurvedic remedies may support overall wellness but are not a substitute for professional medical diagnosis or treatment."
+      }
+    },
+    "Meningitis": {
+      "disease_name": "Meningitis",
+      "primary_treatment": "",
+      "prevention_tips": [],
+      "when_to_consult": [],
+      "recommended_specialist": "",
+      "ayurvedic_prevention_remedies": {
+        "herbs": [],
+        "diet": [],
+        "lifestyle": [],
+        "yoga": [],
+        "disclaimer": "Ayurvedic remedies may support overall wellness but are not a substitute for professional medical diagnosis or treatment."
+      }
+    },
+    "Mental Stress": {
+      "disease_name": "Mental Stress",
+      "primary_treatment": "",
+      "prevention_tips": [],
+      "when_to_consult": [],
+      "recommended_specialist": "",
+      "ayurvedic_prevention_remedies": {
+        "herbs": [],
+        "diet": [],
+        "lifestyle": [],
+        "yoga": [],
+        "disclaimer": "Ayurvedic remedies may support overall wellness but are not a substitute for professional medical diagnosis or treatment."
+      }
+    },
+    "Migraine": {
+      "disease_name": "Migraine",
+      "primary_treatment": "Pain relievers, anti-nausea medications, prevention",
+      "prevention_tips": [
+        "Regular sleep",
+        "Avoid triggers",
+        "Stay hydrated"
+      ],
+      "when_to_consult": [
+        "Severe headache",
+        "Vision changes",
+        "Numbness"
+      ],
+      "recommended_specialist": "Neurologist",
+      "ayurvedic_prevention_remedies": {
+        "herbs": [
+          "Brahmi",
+          "Jatamansi"
+        ],
+        "diet": [
+          "Avoid aged cheese",
+          "Limit caffeine"
+        ],
+        "lifestyle": [
+          "Stress management",
+          "Regular routine"
+        ],
+        "yoga": [
+          "Shavasana",
+          "Pranayama"
+        ],
+        "disclaimer": "Ayurvedic remedies may support overall wellness but are not a substitute for professional medical diagnosis or treatment."
+      }
+    },
+    "Muscle Strain": {
+      "disease_name": "Muscle Strain",
+      "primary_treatment": "",
+      "prevention_tips": [],
+      "when_to_consult": [],
+      "recommended_specialist": "",
+      "ayurvedic_prevention_remedies": {
+        "herbs": [],
+        "diet": [],
+        "lifestyle": [],
+        "yoga": [],
+        "disclaimer": "Ayurvedic remedies may support overall wellness but are not a substitute for professional medical diagnosis or treatment."
+      }
+    },
+    "Osteoarthritis": {
+      "disease_name": "Osteoarthritis",
+      "primary_treatment": "",
+      "prevention_tips": [],
+      "when_to_consult": [],
+      "recommended_specialist": "",
+      "ayurvedic_prevention_remedies": {
+        "herbs": [],
+        "diet": [],
+        "lifestyle": [],
+        "yoga": [],
+        "disclaimer": "Ayurvedic remedies may support overall wellness but are not a substitute for professional medical diagnosis or treatment."
+      }
+    },
+    "Otitis Media": {
+      "disease_name": "Otitis Media",
+      "primary_treatment": "",
+      "prevention_tips": [],
+      "when_to_consult": [],
+      "recommended_specialist": "",
+      "ayurvedic_prevention_remedies": {
+        "herbs": [],
+        "diet": [],
+        "lifestyle": [],
+        "yoga": [],
+        "disclaimer": "Ayurvedic remedies may support overall wellness but are not a substitute for professional medical diagnosis or treatment."
+      }
+    },
+    "Pancreatitis": {
+      "disease_name": "Pancreatitis",
+      "primary_treatment": "",
+      "prevention_tips": [],
+      "when_to_consult": [],
+      "recommended_specialist": "",
+      "ayurvedic_prevention_remedies": {
+        "herbs": [],
+        "diet": [],
+        "lifestyle": [],
+        "yoga": [],
+        "disclaimer": "Ayurvedic remedies may support overall wellness but are not a substitute for professional medical diagnosis or treatment."
+      }
+    },
+    "Panic Disorder": {
+      "disease_name": "Panic Disorder",
+      "primary_treatment": "",
+      "prevention_tips": [],
+      "when_to_consult": [],
+      "recommended_specialist": "",
+      "ayurvedic_prevention_remedies": {
+        "herbs": [],
+        "diet": [],
+        "lifestyle": [],
+        "yoga": [],
+        "disclaimer": "Ayurvedic remedies may support overall wellness but are not a substitute for professional medical diagnosis or treatment."
+      }
+    },
+    "Peptic Ulcer": {
+      "disease_name": "Peptic Ulcer",
+      "primary_treatment": "",
+      "prevention_tips": [],
+      "when_to_consult": [],
+      "recommended_specialist": "",
+      "ayurvedic_prevention_remedies": {
+        "herbs": [],
+        "diet": [],
+        "lifestyle": [],
+        "yoga": [],
+        "disclaimer": "Ayurvedic remedies may support overall wellness but are not a substitute for professional medical diagnosis or treatment."
+      }
+    },
+    "Pneumonia": {
+      "disease_name": "Pneumonia",
+      "primary_treatment": "",
+      "prevention_tips": [],
+      "when_to_consult": [],
+      "recommended_specialist": "",
+      "ayurvedic_prevention_remedies": {
+        "herbs": [],
+        "diet": [],
+        "lifestyle": [],
+        "yoga": [],
+        "disclaimer": "Ayurvedic remedies may support overall wellness but are not a substitute for professional medical diagnosis or treatment."
+      }
+    },
+    "Psoriasis": {
+      "disease_name": "Psoriasis",
+      "primary_treatment": "",
+      "prevention_tips": [],
+      "when_to_consult": [],
+      "recommended_specialist": "",
+      "ayurvedic_prevention_remedies": {
+        "herbs": [],
+        "diet": [],
+        "lifestyle": [],
+        "yoga": [],
+        "disclaimer": "Ayurvedic remedies may support overall wellness but are not a substitute for professional medical diagnosis or treatment."
+      }
+    },
+    "Psoriatic Arthritis": {
+      "disease_name": "Psoriatic Arthritis",
+      "primary_treatment": "",
+      "prevention_tips": [],
+      "when_to_consult": [],
+      "recommended_specialist": "",
+      "ayurvedic_prevention_remedies": {
+        "herbs": [],
+        "diet": [],
+        "lifestyle": [],
+        "yoga": [],
+        "disclaimer": "Ayurvedic remedies may support overall wellness but are not a substitute for professional medical diagnosis or treatment."
+      }
+    },
+    "Pulmonary Embolism": {
+      "disease_name": "Pulmonary Embolism",
+      "primary_treatment": "",
+      "prevention_tips": [],
+      "when_to_consult": [],
+      "recommended_specialist": "",
+      "ayurvedic_prevention_remedies": {
+        "herbs": [],
+        "diet": [],
+        "lifestyle": [],
+        "yoga": [],
+        "disclaimer": "Ayurvedic remedies may support overall wellness but are not a substitute for professional medical diagnosis or treatment."
+      }
+    },
+    "Pyelonephritis": {
+      "disease_name": "Pyelonephritis",
+      "primary_treatment": "",
+      "prevention_tips": [],
+      "when_to_consult": [],
+      "recommended_specialist": "",
+      "ayurvedic_prevention_remedies": {
+        "herbs": [],
+        "diet": [],
+        "lifestyle": [],
+        "yoga": [],
+        "disclaimer": "Ayurvedic remedies may support overall wellness but are not a substitute for professional medical diagnosis or treatment."
+      }
+    },
+    "Rash": {
+      "disease_name": "Rash",
+      "primary_treatment": "",
+      "prevention_tips": [],
+      "when_to_consult": [],
+      "recommended_specialist": "",
+      "ayurvedic_prevention_remedies": {
+        "herbs": [],
+        "diet": [],
+        "lifestyle": [],
+        "yoga": [],
+        "disclaimer": "Ayurvedic remedies may support overall wellness but are not a substitute for professional medical diagnosis or treatment."
+      }
+    },
+    "Rheumatoid Arthritis": {
+      "disease_name": "Rheumatoid Arthritis",
+      "primary_treatment": "",
+      "prevention_tips": [],
+      "when_to_consult": [],
+      "recommended_specialist": "",
+      "ayurvedic_prevention_remedies": {
+        "herbs": [],
+        "diet": [],
+        "lifestyle": [],
+        "yoga": [],
+        "disclaimer": "Ayurvedic remedies may support overall wellness but are not a substitute for professional medical diagnosis or treatment."
+      }
+    },
+    "Scarlet Fever": {
+      "disease_name": "Scarlet Fever",
+      "primary_treatment": "",
+      "prevention_tips": [],
+      "when_to_consult": [],
+      "recommended_specialist": "",
+      "ayurvedic_prevention_remedies": {
+        "herbs": [],
+        "diet": [],
+        "lifestyle": [],
+        "yoga": [],
+        "disclaimer": "Ayurvedic remedies may support overall wellness but are not a substitute for professional medical diagnosis or treatment."
+      }
+    },
+    "Skin Allergy": {
+      "disease_name": "Skin Allergy",
+      "primary_treatment": "",
+      "prevention_tips": [],
+      "when_to_consult": [],
+      "recommended_specialist": "",
+      "ayurvedic_prevention_remedies": {
+        "herbs": [],
+        "diet": [],
+        "lifestyle": [],
+        "yoga": [],
+        "disclaimer": "Ayurvedic remedies may support overall wellness but are not a substitute for professional medical diagnosis or treatment."
+      }
+    },
+    "Sleep Disorder": {
+      "disease_name": "Sleep Disorder",
+      "primary_treatment": "",
+      "prevention_tips": [],
+      "when_to_consult": [],
+      "recommended_specialist": "",
+      "ayurvedic_prevention_remedies": {
+        "herbs": [],
+        "diet": [],
+        "lifestyle": [],
+        "yoga": [],
+        "disclaimer": "Ayurvedic remedies may support overall wellness but are not a substitute for professional medical diagnosis or treatment."
+      }
+    },
+    "Sleep Problem": {
+      "disease_name": "Sleep Problem",
+      "primary_treatment": "",
+      "prevention_tips": [],
+      "when_to_consult": [],
+      "recommended_specialist": "",
+      "ayurvedic_prevention_remedies": {
+        "herbs": [],
+        "diet": [],
+        "lifestyle": [],
+        "yoga": [],
+        "disclaimer": "Ayurvedic remedies may support overall wellness but are not a substitute for professional medical diagnosis or treatment."
+      }
+    },
+    "Stomach Pain": {
+      "disease_name": "Stomach Pain",
+      "primary_treatment": "",
+      "prevention_tips": [],
+      "when_to_consult": [],
+      "recommended_specialist": "",
+      "ayurvedic_prevention_remedies": {
+        "herbs": [],
+        "diet": [],
+        "lifestyle": [],
+        "yoga": [],
+        "disclaimer": "Ayurvedic remedies may support overall wellness but are not a substitute for professional medical diagnosis or treatment."
+      }
+    },
+    "Stomach Upset": {
+      "disease_name": "Stomach Upset",
+      "primary_treatment": "",
+      "prevention_tips": [],
+      "when_to_consult": [],
+      "recommended_specialist": "",
+      "ayurvedic_prevention_remedies": {
+        "herbs": [],
+        "diet": [],
+        "lifestyle": [],
+        "yoga": [],
+        "disclaimer": "Ayurvedic remedies may support overall wellness but are not a substitute for professional medical diagnosis or treatment."
+      }
+    },
+    "Stress": {
+      "disease_name": "Stress",
+      "primary_treatment": "",
+      "prevention_tips": [],
+      "when_to_consult": [],
+      "recommended_specialist": "",
+      "ayurvedic_prevention_remedies": {
+        "herbs": [],
+        "diet": [],
+        "lifestyle": [],
+        "yoga": [],
+        "disclaimer": "Ayurvedic remedies may support overall wellness but are not a substitute for professional medical diagnosis or treatment."
+      }
+    },
+    "Tension Headache": {
+      "disease_name": "Tension Headache",
+      "primary_treatment": "",
+      "prevention_tips": [],
+      "when_to_consult": [],
+      "recommended_specialist": "",
+      "ayurvedic_prevention_remedies": {
+        "herbs": [],
+        "diet": [],
+        "lifestyle": [],
+        "yoga": [],
+        "disclaimer": "Ayurvedic remedies may support overall wellness but are not a substitute for professional medical diagnosis or treatment."
+      }
+    },
+    "Throat Infection": {
+      "disease_name": "Throat Infection",
+      "primary_treatment": "",
+      "prevention_tips": [],
+      "when_to_consult": [],
+      "recommended_specialist": "",
+      "ayurvedic_prevention_remedies": {
+        "herbs": [],
+        "diet": [],
+        "lifestyle": [],
+        "yoga": [],
+        "disclaimer": "Ayurvedic remedies may support overall wellness but are not a substitute for professional medical diagnosis or treatment."
+      }
+    },
+    "Tonsillitis": {
+      "disease_name": "Tonsillitis",
+      "primary_treatment": "",
+      "prevention_tips": [],
+      "when_to_consult": [],
+      "recommended_specialist": "",
+      "ayurvedic_prevention_remedies": {
+        "herbs": [],
+        "diet": [],
+        "lifestyle": [],
+        "yoga": [],
+        "disclaimer": "Ayurvedic remedies may support overall wellness but are not a substitute for professional medical diagnosis or treatment."
+      }
+    },
+    "Typhoid": {
+      "disease_name": "Typhoid",
+      "primary_treatment": "",
+      "prevention_tips": [],
+      "when_to_consult": [],
+      "recommended_specialist": "",
+      "ayurvedic_prevention_remedies": {
+        "herbs": [],
+        "diet": [],
+        "lifestyle": [],
+        "yoga": [],
+        "disclaimer": "Ayurvedic remedies may support overall wellness but are not a substitute for professional medical diagnosis or treatment."
+      }
+    },
+    "Vertigo": {
+      "disease_name": "Vertigo",
+      "primary_treatment": "",
+      "prevention_tips": [],
+      "when_to_consult": [],
+      "recommended_specialist": "",
+      "ayurvedic_prevention_remedies": {
+        "herbs": [],
+        "diet": [],
+        "lifestyle": [],
+        "yoga": [],
+        "disclaimer": "Ayurvedic remedies may support overall wellness but are not a substitute for professional medical diagnosis or treatment."
+      }
+    },
+    "Viral Fever": {
+      "disease_name": "Viral Fever",
+      "primary_treatment": "",
+      "prevention_tips": [],
+      "when_to_consult": [],
+      "recommended_specialist": "",
+      "ayurvedic_prevention_remedies": {
+        "herbs": [],
+        "diet": [],
+        "lifestyle": [],
+        "yoga": [],
+        "disclaimer": "Ayurvedic remedies may support overall wellness but are not a substitute for professional medical diagnosis or treatment."
+      }
+    },
+    "Viral Infection": {
+      "disease_name": "Viral Infection",
+      "primary_treatment": "",
+      "prevention_tips": [],
+      "when_to_consult": [],
+      "recommended_specialist": "",
+      "ayurvedic_prevention_remedies": {
+        "herbs": [],
+        "diet": [],
+        "lifestyle": [],
+        "yoga": [],
+        "disclaimer": "Ayurvedic remedies may support overall wellness but are not a substitute for professional medical diagnosis or treatment."
+      }
+    },
+    "Weakness / Tiredness": {
+      "disease_name": "Weakness / Tiredness",
+      "primary_treatment": "",
+      "prevention_tips": [],
+      "when_to_consult": [],
+      "recommended_specialist": "",
+      "ayurvedic_prevention_remedies": {
+        "herbs": [],
+        "diet": [],
+        "lifestyle": [],
+        "yoga": [],
+        "disclaimer": "Ayurvedic remedies may support overall wellness but are not a substitute for professional medical diagnosis or treatment."
+      }
+    }
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "metadata": {
+    "version": "1.0.0",
+    "last_updated": "2026-05-31",
+    "description": "Cleaned healthcare disease database with medical information for AI healthcare applications",
+    "total_diseases": 63,
+    "original_count": 85,
+    "removed_labels": 3,
+    "replaced_labels": 34
+  },
+  "diseases": [
+    {
+      "disease_name": "Allergic Contact Dermatitis",
+      "description": "Inflammatory skin reaction caused by direct contact with allergens like nickel, poison ivy, or certain chemicals in cosmetics or jewelry.",
+      "primary_treatment": "Topical corticosteroids, antihistamines, and allergen avoidance",
+      "prevention_tips": ["Identify and avoid specific allergens", "Use hypoallergenic products", "Wear protective gloves when handling chemicals", "Apply barrier creams before exposure"],
+      "when_to_consult": ["Rash spreads rapidly", "Signs of infection (pus, increased redness)", "Severe itching disrupting sleep", "No improvement after 2-3 weeks of self-care"],
+      "recommended_specialist": "Dermatologist or Allergist",
+      "ayurvedic_prevention_remedies": {
+        "herbs": ["Neem (Azadirachta indica) - anti-inflammatory and antimicrobial", "Turmeric (Curcuma longa) - reduces inflammation", "Aloe vera - soothes skin irritation"],
+        "diet": ["Increase omega-3 fatty acids (flaxseeds, walnuts)", "Foods rich in quercetin (apples, berries)", "Avoid processed foods and excessive sugar"],
+        "lifestyle": ["Practice stress reduction techniques", "Keep skin well-moisturized with natural oils", "Wear breathable cotton clothing", "Shower immediately after potential allergen exposure"],
+        "yoga": ["Sheetali Pranayama (cooling breath)", "Gentle stretches to improve circulation"],
+        "disclaimer": "Ayurvedic remedies may support wellness but are not a substitute for medical treatment."
+      }
+    },
+    {
+      "disease_name": "Allergic Rhinitis",
+      "description": "Allergic inflammation of the nasal airways occurring when allergens like pollen, dust mites, or animal dander are inhaled.",
+      "primary_treatment": "Intranasal corticosteroids, oral/nasal antihistamines, leukotriene receptor antagonists, and allergen immunotherapy",
+      "prevention_tips": ["Use HEPA air filters at home", "Wash bedding weekly in hot water", "Keep pets out of bedrooms", "Check pollen forecasts and limit outdoor activity during high counts", "Use mite-proof covers on pillows and mattresses"],
+      "when_to_consult": ["Symptoms persist >2 weeks despite OTC treatment", "Severe nasal congestion causing difficulty breathing", "Recurring sinus infections", "Symptoms interfere with sleep or daily activities"],
+      "recommended_specialist": "Allergist/Immunologist or ENT Specialist",
+      "ayurvedic_prevention_remedies": {
+        "herbs": ["Haridra (Turmeric) - anti-allergic properties", "Shirish (Albizia lebbeck) - stabilizes mast cells", "Yashtimadhu (Licorice) - soothes mucosal lining"],
+        "diet": ["Warm, easily digestible foods", "Avoid cold, heavy, and dairy products during allergy season", "Include ginger and tulsi in daily diet"],
+        "lifestyle": ["Nasya therapy (nasal administration of medicated oils)", "Regular pranayama practice", "Avoid sleeping during daytime", "Perform Jal Neti (nasal cleansing) daily"],
+        "yoga": ["Kapalabhati (skull shining breath)", "Bhastrika (bellows breath)", "Anulom Vilom (alternate nostril breathing)"],
+        "disclaimer": "Ayurvedic remedies may support wellness but are not a substitute for medical treatment."
+      }
+    }
+  ]
+}
