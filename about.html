@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your AI Doctor - About</title>
+    <link rel="stylesheet" href="static/css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <a href="./" class="logo">
+                <i class="fas fa-staff-snake"></i>
+                <span>Your AI Doctor</span>
+            </a>
+            <ul class="nav-links">
+                <li><a href="./"><i class="fas fa-home"></i> Home</a></li>
+                <li><a href="./consult"><i class="fas fa-user-md"></i> Consult Doctors</a></li>
+                <li><a href="./about" class="active"><i class="fas fa-info-circle"></i> About</a></li>
+            </ul>
+            <div class="menu-toggle">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero hero-small">
+        <div class="container">
+            <h1>About Your AI Doctor</h1>
+            <p>Revolutionizing healthcare with artificial intelligence</p>
+        </div>
+    </section>
+
+    <!-- Main Content -->
+    <main class="main-content">
+        <div class="container">
+            <div class="about-content">
+                <!-- Project Overview -->
+                <div class="about-card">
+                    <div class="about-icon">
+                        <i class="fas fa-robot"></i>
+                    </div>
+                    <h2>Project Overview</h2>
+                    <p>
+                        "Your AI Doctor" is a full-stack AI-powered healthcare web application that combines 
+                        advanced machine learning algorithms with a modern, user-friendly interface to provide 
+                        preliminary disease prediction and help users find appropriate medical care.
+                    </p>
+                </div>
+
+                <!-- Features -->
+                <div class="features-grid">
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <i class="fas fa-brain"></i>
+                        </div>
+                        <h3>AI-Powered Prediction</h3>
+                        <p>
+                            Uses Decision Tree and Random Forest machine learning models trained on medical data 
+                            to predict potential diseases based on selected symptoms.
+                        </p>
+                    </div>
+
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <i class="fas fa-book-medical"></i>
+                        </div>
+                        <h3>Disease Information</h3>
+                        <p>
+                            Provides comprehensive information including treatment options, prevention tips, 
+                            and guidance on when to consult a healthcare professional.
+                        </p>
+                    </div>
+
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <i class="fas fa-user-md"></i>
+                        </div>
+                        <h3>Doctor Consultation</h3>
+                        <p>
+                            Helps users find doctors by specialization, sorted by proximity using geolocation 
+                            with direct links to view locations on Google Maps.
+                        </p>
+                    </div>
+
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <i class="fas fa-mobile-alt"></i>
+                        </div>
+                        <h3>Responsive Design</h3>
+                        <p>
+                            Clean, modern, and mobile-responsive UI that works seamlessly across all devices 
+                            and screen sizes.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Technology Stack -->
+                <div class="tech-section">
+                    <h2><i class="fas fa-layer-group"></i> Technology Stack</h2>
+                    <div class="tech-grid">
+                        <div class="tech-item">
+                            <i class="fab fa-python"></i>
+                            <span>Python</span>
+                        </div>
+                        <div class="tech-item">
+                            <i class="fas fa-flask"></i>
+                            <span>Flask</span>
+                        </div>
+                        <div class="tech-item">
+                            <i class="fas fa-brain"></i>
+                            <span>scikit-learn</span>
+                        </div>
+                        <div class="tech-item">
+                            <i class="fab fa-html5"></i>
+                            <span>HTML5</span>
+                        </div>
+                        <div class="tech-item">
+                            <i class="fab fa-css3-alt"></i>
+                            <span>CSS3</span>
+                        </div>
+                        <div class="tech-item">
+                            <i class="fab fa-js"></i>
+                            <span>JavaScript</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project Structure -->
+                <div class="structure-section">
+                    <h2><i class="fas fa-folder-tree"></i> Project Structure</h2>
+                    <div class="structure-tree">
+                        <pre>
+Your AI Doctor/
+├── app.py                 # Flask application
+├── create_models.py       # ML model generator
+├── requirements.txt       # Dependencies
+├── templates/
+│   ├── index.html        # Home page
+│   ├── consult.html      # Doctor search page
+│   └── about.html        # About page
+├── static/
+│   ├── css/
+│   │   └── style.css     # Main stylesheet
+│   └── js/
+│       ├── script.js     # Home page scripts
+│       └── consult.js    # Doctor page scripts
+├── models/
+│   ├── decision_tree.pkl # Decision Tree model
+│   └── random_forest.pkl # Random Forest model
+└── data/
+    ├── disease_solutions.json  # Disease information
+    └── doctors_database.json   # Doctor database
+                        </pre>
+                    </div>
+                </div>
+
+                <!-- How It Works -->
+                <div class="how-it-works">
+                    <h2><i class="fas fa-question-circle"></i> How It Works</h2>
+                    <div class="steps">
+                        <div class="step">
+                            <div class="step-number">1</div>
+                            <h3>Select Symptoms</h3>
+                            <p>Choose all symptoms you are experiencing from our list of 27 predefined symptoms.</p>
+                        </div>
+                        <div class="step">
+                            <div class="step-number">2</div>
+                            <h3>Get Prediction</h3>
+                            <p>Our AI models analyze your symptoms and predict the most likely disease.</p>
+                        </div>
+                        <div class="step">
+                            <div class="step-number">3</div>
+                            <h3>View Information</h3>
+                            <p>Get detailed information about treatment, prevention, and when to consult a doctor.</p>
+                        </div>
+                        <div class="step">
+                            <div class="step-number">4</div>
+                            <h3>Find Doctors</h3>
+                            <p>Search for doctors by specialization and find the nearest ones to your location.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Disclaimer -->
+                <div class="disclaimer">
+                    <i class="fas fa-exclamation-triangle"></i>
+                    <h3>Important Disclaimer</h3>
+                    <p>
+                        This application is for educational and informational purposes only. The predictions made 
+                        by the AI models are not a substitute for professional medical advice, diagnosis, or treatment. 
+                        Always seek the advice of your physician or other qualified health provider with any questions 
+                        you may have regarding a medical condition.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Your AI Doctor. All rights reserved.</p>
+            <p>This is an AI-powered prediction tool. Always consult a healthcare professional for medical advice.</p>
+        </div>
+    </footer>
+
+    <script src="static/js/main.js"></script>
+</body>
+</html>

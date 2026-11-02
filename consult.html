@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your AI Doctor - Find Doctors</title>
+    <link rel="stylesheet" href="static/css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <a href="./" class="logo">
+                <i class="fas fa-staff-snake"></i>
+                <span>Your AI Doctor</span>
+            </a>
+            <ul class="nav-links">
+                <li><a href="./"><i class="fas fa-home"></i> Home</a></li>
+                <li><a href="./consult" class="active"><i class="fas fa-user-md"></i> Consult Doctors</a></li>
+                <li><a href="./about"><i class="fas fa-info-circle"></i> About</a></li>
+            </ul>
+            <div class="menu-toggle">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero hero-small">
+        <div class="container">
+            <h1>Find Doctors Near You</h1>
+            <p>Search and connect with specialists based on your condition</p>
+        </div>
+    </section>
+
+    <!-- Main Content -->
+    <main class="main-content">
+        <div class="container">
+            <!-- Filter Section -->
+            <div class="filter-section">
+                <div class="filter-group">
+                    <label for="specialization"><i class="fas fa-stethoscope"></i> Select Specialization</label>
+                    <select id="specialization">
+                        <option value="">All Specializations</option>
+                        {% for spec in specializations %}
+                        <option value="{{ spec }}">{{ spec }}</option>
+                        {% endfor %}
+                    </select>
+                </div>
+
+                <div class="filter-group">
+                    <label for="district"><i class="fas fa-city"></i> Select District/Taluk</label>
+                    <select id="district">
+                        <option value="Mandya">Mandya District</option>
+                        <option value="Mysuru">Mysuru District</option>
+                        <option value="Chamarajanagar">Chamarajanagar District</option>
+                        <option value="Tumakuru">Tumakuru District</option>
+                        <option value="Bengaluru">Bengaluru District</option>
+                        <option value="All">All Districts</option>
+                    </select>
+                </div>
+
+                <div class="location-group">
+                    <button id="detectLocation" class="btn btn-secondary">
+                        <i class="fas fa-location-arrow"></i> Detect My Location
+                    </button>
+                    <span id="locationStatus" class="location-status"></span>
+                </div>
+            </div>
+
+            <!-- Doctors List -->
+            <div class="doctors-container">
+                <div id="loadingDoctors" class="loading-doctors hidden">
+                    <div class="spinner"></div>
+                    <p>Loading doctors...</p>
+                </div>
+
+                <div id="doctorsList" class="doctors-grid">
+                    <!-- Doctor cards will be inserted here -->
+                </div>
+
+                <div id="noDoctors" class="no-doctors hidden">
+                    <i class="fas fa-user-md"></i>
+                    <h3>No Doctors Found</h3>
+                    <p>Try selecting a different specialization or city</p>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Your AI Doctor. All rights reserved.</p>
+            <p>This is an AI-powered prediction tool. Always consult a healthcare professional for medical advice.</p>
+        </div>
+    </footer>
+
+    <script src="static/js/consult.js"></script>
+</body>
+</html>
